@@ -1,17 +1,29 @@
 import CloseButton from 'react-bootstrap/CloseButton';
 
-const About = () => {
+const EpisodePage = () => {
 
     return (
 
         <>
     <a href="/"><CloseButton aria-label="Hide" /></a>
 
-        about
+        episode component 
+
+        photo
+
+        image
+
+        audio
+
+        info
+
+        links
+
+        
         
         </>
     )
 
 }
 
-export default About;
+export default EpisodePage;
