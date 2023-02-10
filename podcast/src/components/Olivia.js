@@ -13,7 +13,7 @@ const Olivia = () => {
       </a>
 
       <Wrapper>
-        EPISODE : OLIVIA DREISINGER
+       <Head> EPISODE : OLIVIA DREISINGER</Head>
         <Img src={Photo} alt="Skin Tone " />
         audio
         <p>
@@ -43,12 +43,19 @@ const Olivia = () => {
   );
 };
 
+const Head = styled.h1`
+  font-family: var(--font-heading);
+
+`
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  font-family: var(--font-body);
+
+
 
   @media (min-width: 768px) {
     text-align: center;

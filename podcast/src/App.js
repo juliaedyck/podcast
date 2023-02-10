@@ -12,11 +12,13 @@ import Jann from "./components/Jann";
 import Olivia from "./components/Olivia";
 import Rebecca from "./components/Rebecca";
 import Sarah from "./components/Sarah";
+import GlobalStyles from "./components/GlobalStyles";
 
 const App  =() => {
   return (
 <>
 <Router>
+  <GlobalStyles />
 <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
