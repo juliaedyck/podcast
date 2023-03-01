@@ -13,8 +13,9 @@ const Andrea = () => {
       </a>
 
       <Wrapper>
-        EPISODE : ANDREA IYA YOUNG
+      <Heading> EPISODE : ANDREA IYA YOUNG </Heading>
         <Img src={Photo} alt=" Andrea Iya Young" />
+        <Des>
         audio
         <p>
           Andrea Young is a multi-disciplinary artist, writer, healer and
@@ -33,10 +34,21 @@ const Andrea = () => {
           lands surrounding the Qu'apelle Valley in the Saskatchewan prairies.
         </p>
         <p>links</p>
+        </Des>
       </Wrapper>
     </>
   );
 };
+
+const Heading = styled.div`
+font-family:  'DM Serif Display', serif;
+font-style: italic;
+color: var(--color-green);
+`
+
+const Des = styled.h2`
+font-family: var(--font-body);
+`
 
 const Wrapper = styled.div`
   display: flex;

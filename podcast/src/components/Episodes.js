@@ -2,89 +2,104 @@ import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import James from "../photos/james_2.jpg";
+import Square1 from "../photos/squares/AKOH Squares-01.png"
+import Square2 from "../photos/squares/AKOH Squares-02.png"
+import Square3 from "../photos/squares/AKOH Squares-03.png"
+
 
 const Episodes = () => {
   return (
-    <>
+    <Background>
         <Close>
 
       <a href="/">
         <CloseButton aria-label="Hide" />
       </a>
       </Close>
-      {/* <Container> */}
       <Wrapper>
-        {/* <Row> */}
-        {/* <Col>1 of 2</Col> */}
-        {/* <Col>  */}
+   <Squares>
+   <Img src={Square1} alt=" " />
+   <Img src={Square2} alt=" " />
+   <Img src={Square3} alt=" " />
+
+
+
+   </Squares>
         <Scroll>
           <EpisodeContainer>
-            <h1> EPISODE : SKIN TONE </h1>
+            <Heading> EPISODE 1:</Heading>
+              <Heading> SKIN TONE </Heading>
 
-            {/* <Img src = {James}/> */}
-            <h2>a short descripttion </h2>
+            <Des> skin tone AKA James Goddard discusses jazz music, improvisation, and their potential social implications. </Des>
             <StyledNavLink to="/SkinTone">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
-          <EpisodeContainer>
-            <h1> EPISODE : ANDREA IYA YOUNG </h1>
-            <h2>a short descripttion </h2>
+          {/* <EpisodeContainer>
+          <Heading> EPISODE : ANDREA IYA YOUNG </Heading>
+          <Des>a short descripttion </Des>
             <StyledNavLink to="/Andrea">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : BACKXWASH </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : BACKXWASH </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Backxwash">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : JAMILAH MALIKA ABU-BAKARE </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : JAMILAH MALIKA ABU-BAKARE </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Jamilah">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : JANN TOMARO </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : JANN TOMARO </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Jann">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : OLIVIA </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : OLIVIA </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Olivia">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : REBECCA </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : REBECCA </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Rebecca">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE : SARAH </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : SARAH  </Heading>
+
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/Sarah">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE 9 : NICK </h1>
-            <h2>a short description </h2>
+          <Heading> EPISODE : NICK </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <h1> EPISODE 9 : NAME </h1>
-            <h2>a short descripttion </h2>
+          <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
+          <Des>a short descripttion </Des>
+
             <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
-          </EpisodeContainer>
+          </EpisodeContainer> */}
         </Scroll>
-        {/* </Col> */}
-        {/* </Row> */}
+
       </Wrapper>
-      {/* </Container> */}
-    </>
+    </Background>
   );
 };
 const EpisodeContainer = styled.div`
@@ -94,21 +109,31 @@ const EpisodeContainer = styled.div`
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 2%;
 `;
 
 const Scroll = styled.div`
-  /* display: flex; */
-  /* height: 100%;
-width: 50%; */
-  /* overflow: auto; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: scroll;
 `;
-const StyledNavLink = styled(NavLink)``;
+const StyledNavLink = styled(NavLink)`
+font-family:  'DM Serif Display', serif;
+font-style: italic;
+color: var(--color-green);
+margin-top: 2%;
+`;
 
 const Img = styled.img`
-  max-width: 40%;
+  max-width: 30%;
+
+  @media (min-width: 768px) {
+
+    max-height: 255px;
+    max-width: 255px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -116,13 +141,57 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5%;
-`;
+  height: 100%;
 
+  @media (min-width: 768px) {
+flex-direction: row;
+justify-content: space-evenly;
+align-items: space-evenly;
+max-height: 100vh;
+
+  }
+  `;
+
+const Background = styled.div`
+height: 100vh;
+background-color: var(--color-blue);
+overflow:scroll
+
+`
 const Close = styled.div`
   display: flex;
   justify-content: flex-end;
   padding: 1%;
+  z-index: 1000;
+  position: absolute;
+  right: 0;
 `;
+
+const Heading = styled.h1`
+font-family:  'DM Serif Display', serif;
+font-style: italic;
+color: var(--color-green);
+margin-bottom: 2%;
+`
+
+
+const Des = styled.h2`
+font-family: var(--font-body);
+`
+
+const Squares = styled.div`
+width: 100%;
+max-height: 30%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-bottom: 1%;
+
+@media (min-width: 768px) {
+flex-direction: column;
+max-height: 100%;
+  }
+`
+
 
 export default Episodes;
