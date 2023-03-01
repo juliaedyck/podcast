@@ -113,7 +113,7 @@ const StyledLink = styled.a`
   color: var(--bs-body-color);
   &:hover {
     color: var(--color-orange);
-    transition: 300ms ease-in-out;
+    /* transition: 300ms ease-in-out; */
     cursor: pointer;
   }
 `;

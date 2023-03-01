@@ -2,9 +2,9 @@ import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import James from "../photos/james_2.jpg";
-import Square1 from "../photos/squares/AKOH Squares-01.png"
-import Square2 from "../photos/squares/AKOH Squares-02.png"
-import Square3 from "../photos/squares/AKOH Squares-03.png"
+import Square1 from "../photos/squares/square_1_small.png"
+import Square2 from "../photos/squares/square_2_small.png"
+import Square3 from "../photos/squares/square_3_small.png"
 
 
 const Episodes = () => {
@@ -117,13 +117,19 @@ const Scroll = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  overflow: scroll;
+  /* overflow: scroll; */
 `;
 const StyledNavLink = styled(NavLink)`
 font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
 margin-top: 2%;
+
+&:hover {
+    color: var(--color-orange);
+    /* transition: 300ms ease-in-out; */
+    cursor: pointer;
+  }
 `;
 
 const Img = styled.img`
@@ -161,7 +167,8 @@ overflow:scroll
 const Close = styled.div`
   display: flex;
   justify-content: flex-end;
-  padding: 1%;
+  padding-right: 2%;
+  padding-top: 2%;
   z-index: 1000;
   position: absolute;
   right: 0;
@@ -190,6 +197,7 @@ margin-bottom: 1%;
 @media (min-width: 768px) {
 flex-direction: column;
 max-height: 100%;
+max-width:50%;
   }
 `
 
