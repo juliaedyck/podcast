@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
-import Background from "../photos/AKOH-43.png"
+import Background from "../photos/AKOH Banner Square.png"
 
 const HomePage = () => {
 
@@ -9,7 +9,7 @@ const HomePage = () => {
     
     <Wrapper>
     <Links>
-    <StyledNavLink to="/About">ABOUT</StyledNavLink>
+    <StyledNavLink to="/About">   ABOUT</StyledNavLink>
     <StyledNavLink to="/Episodes">EPISODES</StyledNavLink>
     </Links>
     <Img src = {Background}/>
@@ -45,11 +45,17 @@ const Img = styled.img`
 
   @media (min-width: 500px) {
  width: 70%;
+ max-height: 100vh;
+/* width: auto; */
+margin: 0;
  /* z-index: -1;
  position: fixed; */
   }
-  @media (min-width: 900px) {
- width: 100%;
+  @media (min-width: 912px) {
+ /* width: 100%; */
+ max-height: 100vh;
+ max-width: 50%;
+ margin: 0;
  /* z-index: -1;
  position: fixed; */
   }
@@ -66,13 +72,13 @@ width: 80%;
  /* z-index: -1;
  position: fixed; */
  width: 70%;
-color: var(--color-blue);
   }
 
 @media (min-width: 900px) {
+margin-left: 1.5%;
  z-index: 1000;
  position: fixed;
-color: var(--color-blue);
+
 
 
   }
@@ -86,7 +92,7 @@ font-style: italic;
 color: var(--color-green);
 font-size: 20px;
 &:hover {
-    color: white;
+    color: var(--color-orange);
   }
 
   @media (min-width: 768px) {
@@ -96,7 +102,7 @@ font-size: 20px;
   @media (min-width: 900px) {
  z-index: 1000;
  position: sticky;
-color: var(--color-blue);
+color: var(--color-green);
 
   }
 `

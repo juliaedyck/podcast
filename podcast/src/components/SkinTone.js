@@ -76,6 +76,7 @@ font-family: var(--font-body);
 margin-top: 2%;
 padding-left: 5%;
 padding-right: 5%;
+color: var(--color-green);
 `
 
 const Background = styled.div`

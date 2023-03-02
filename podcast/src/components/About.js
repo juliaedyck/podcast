@@ -81,6 +81,7 @@ const Img = styled.img`
 const Des = styled.h2`
   font-family: var(--font-body);
   margin-top: 2%;
+  color: var(--color-green);
 
 `;
 
@@ -110,7 +111,7 @@ const StyledLink = styled.a`
   margin-left: 3px;
   margin-right: 3px;
 
-  color: var(--bs-body-color);
+  color: var(--color-green);;
   &:hover {
     color: var(--color-orange);
     /* transition: 300ms ease-in-out; */

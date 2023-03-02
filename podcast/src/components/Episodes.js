@@ -184,6 +184,7 @@ margin-bottom: 2%;
 
 const Des = styled.h2`
 font-family: var(--font-body);
+color: var(--color-green);
 `
 
 const Squares = styled.div`

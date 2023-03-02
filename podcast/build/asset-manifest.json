@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d6af8115.css",
-    "main.js": "/static/js/main.c74b5c86.js",
+    "main.js": "/static/js/main.45d94bee.js",
     "static/js/787.6966d2df.chunk.js": "/static/js/787.6966d2df.chunk.js",
     "static/media/ashanti.jpg": "/static/media/ashanti.17ff132fe9498f127805.jpg",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
@@ -11,19 +11,19 @@
     "static/media/square_2_small.png": "/static/media/square_2_small.6eebb820c22f7b684022.png",
     "static/media/square_1_small.png": "/static/media/square_1_small.085d4d85ffc2b9a16f46.png",
     "static/media/jamilah.jpg": "/static/media/jamilah.7ccdc8d8b0811a8d4aa7.jpg",
+    "static/media/AKOH Banner Square.png": "/static/media/AKOH Banner Square.a86f3bb565efa3c1b96c.png",
     "static/media/james_square.png": "/static/media/james_square.48de99de03ede2f8f7d0.png",
     "static/media/Sarah.JPG": "/static/media/Sarah.3e54812911246c6e2579.JPG",
     "static/media/Olivia.jpg": "/static/media/Olivia.c066dbda91669edc5899.jpg",
-    "static/media/AKOH-43.png": "/static/media/AKOH-43.3438cd7c8743807a623d.png",
     "static/media/jann.jpg": "/static/media/jann.98281ae68c04f27997c1.jpg",
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.d6af8115.css.map": "/static/css/main.d6af8115.css.map",
-    "main.c74b5c86.js.map": "/static/js/main.c74b5c86.js.map",
+    "main.45d94bee.js.map": "/static/js/main.45d94bee.js.map",
     "787.6966d2df.chunk.js.map": "/static/js/787.6966d2df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6af8115.css",
-    "static/js/main.c74b5c86.js"
+    "static/js/main.45d94bee.js"
   ]
 }
