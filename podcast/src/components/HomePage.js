@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
-import Background from "../photos/AKOH Banner Square.png"
+import Background from "../photos/AKOH Banner Square.jpg"
 
 const HomePage = () => {
 

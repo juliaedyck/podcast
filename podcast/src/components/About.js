@@ -2,6 +2,7 @@ import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import CCALogo from "../photos/CCA_RGB_black_e.png";
+import Photo from "../photos/j_a_square.jpg"
 
 const newWindow = (url) => {
   window.open(url, "newwindow");
@@ -17,6 +18,8 @@ const About = () => {
         </a>
       </Close>
       <Wrapper>
+      <Img2 src={Photo} alt="Skin Tone " />
+
         <Des>
           {" "}
           A Kind of Harmony is a project by{" "}
@@ -73,11 +76,22 @@ const Close = styled.div`
 `;
 
 const Logo = styled.div``;
+
+
 const Img = styled.img`
   max-height: 70px;
   max-width: 80%;
   padding-bottom: 5%;
+  margin-top: 5%;
 `;
+
+const Img2 = styled.img`
+max-width: 70%;
+margin-bottom: 1%;
+@media (min-width: 912px) {
+
+max-height: 350px;}
+`
 const Des = styled.h2`
   font-family: var(--font-body);
   margin-top: 2%;
@@ -103,7 +117,7 @@ const Wrapper = styled.div`
 
 const Background = styled.div`
   height: 100vh;
-  background-color: var(--color-pink);
+  background-color: #C25D85;
   overflow: scroll;
 `;
 

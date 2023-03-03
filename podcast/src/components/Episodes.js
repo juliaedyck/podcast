@@ -2,9 +2,9 @@ import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import James from "../photos/james_2.jpg";
-import Square1 from "../photos/squares/square_1_small.png"
-import Square2 from "../photos/squares/square_2_small.png"
-import Square3 from "../photos/squares/square_3_small.png"
+import Square1 from "../photos/squares/square_1_small.jpg"
+import Square2 from "../photos/squares/square_2_small.jpg"
+import Square3 from "../photos/squares/square_3_small.jpg"
 
 
 const Episodes = () => {

@@ -1,6 +1,6 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
-import Photo from "../photos/james_square.png";
+import Photo from "../photos/james_square.jpg";
 
 const SkinTone = () => {
   return (
