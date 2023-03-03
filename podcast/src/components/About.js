@@ -117,7 +117,7 @@ const Wrapper = styled.div`
 
 const Background = styled.div`
   height: 100vh;
-  background-color: #C25D85;
+  background-color: #EA75A8;
   overflow: scroll;
 `;
 
