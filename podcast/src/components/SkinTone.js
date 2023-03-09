@@ -69,6 +69,7 @@ font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
 margin-bottom: 2%;
+font-size: 20px;
 `
 
 const Des = styled.h2`
@@ -77,6 +78,7 @@ margin-top: 2%;
 padding-left: 5%;
 padding-right: 5%;
 color: var(--color-green);
+font-size: 18px;
 `
 
 const Background = styled.div`

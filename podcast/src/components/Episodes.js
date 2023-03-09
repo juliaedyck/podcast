@@ -124,6 +124,7 @@ font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
 margin-top: 2%;
+font-size: 20px;
 
 &:hover {
     color: var(--color-orange);
@@ -179,12 +180,14 @@ font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
 margin-bottom: 2%;
+font-size: 20px;
 `
 
 
 const Des = styled.h2`
 font-family: var(--font-body);
 color: var(--color-green);
+font-size: 18px;
 `
 
 const Squares = styled.div`

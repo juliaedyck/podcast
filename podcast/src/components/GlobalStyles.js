@@ -13,21 +13,23 @@ export default createGlobalStyle`
     --color-blue: #A7B0BC;
     --background-color: #625D27;
 	@media (min-width: 768px) {
-        font-size: 18;
+        font-size: 20;
       }
 
       @media (min-width: 1024px) {
-        font-size: 16;
+        font-size: 18;
       }
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
+	font-size: 1.5rem;
 
 }
 
 h1{
     font-family: 'DM Serif Display', serif;
+	font-size: 2rem;
 }
 //CSS RESET
 

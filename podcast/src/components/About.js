@@ -2,7 +2,7 @@ import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import CCALogo from "../photos/CCA_RGB_black_e.png";
-import Photo from "../photos/j_a_square.jpg"
+import Photo from "../photos/j_a_square.jpg";
 
 const newWindow = (url) => {
   window.open(url, "newwindow");
@@ -18,7 +18,13 @@ const About = () => {
         </a>
       </Close>
       <Wrapper>
-      <Img2 src={Photo} alt="Skin Tone " />
+        <Des>
+          a Kind of Harmony is looking to transcend the physical limitations of daily
+          life. In each episode, we speak with a different practitioner
+          who uses sound as a tool or method for connection, transcendence, and
+          healing.
+        </Des>
+        <Img2 src={Photo} alt="Skin Tone " />
 
         <Des>
           {" "}
@@ -41,25 +47,29 @@ const About = () => {
           documentaries,installations, interventions, and events.
           <Des>
             A Kind of Harmony was made with the generous support from the Canada
-            Council for the Arts </Des>
-            <Des> Editing by Laura Dickens </Des>
-            
-            <Des> Mixing and mastering by Evan Vincent    </Des>
-         
-            <Des>Project management by Christian Scott     </Des>
-            <Des>Graphic design
-            
-            by   <StyledLink
-            onClick={() => newWindow("https://mutualdesign.cc/")}
-            target="_blank"
-          >
-           Mutual Design 
-          </StyledLink>     </Des>
-        
-         
+            Council for the Arts{" "}
+          </Des>
+          <Des> Editing by Laura Dickens </Des>
+          <Des> Mixing and mastering by Evan Vincent </Des>
+          <Des>Project management by Christian Scott </Des>
           <Des>
-          If you’d like to support this project and what we do, please follow us
-          on Instagram, or subscribe to our Patreon
+            Graphic design by{" "}
+            <StyledLink
+              onClick={() => newWindow("https://mutualdesign.cc/")}
+              target="_blank"
+            >
+              Mutual Design
+            </StyledLink>{" "}
+          </Des>
+          <Des>
+            If you’d like to support this project and what we do, please follow
+            us on
+            <StyledLink
+              onClick={() => newWindow("https://www.instagram.com/akindofharmony/")}
+              target="_blank"
+            >
+             Instagram
+            </StyledLink> , or subscribe to our Patreon
           </Des>
         </Des>
         <Logo>
@@ -77,7 +87,6 @@ const Close = styled.div`
 
 const Logo = styled.div``;
 
-
 const Img = styled.img`
   max-height: 70px;
   max-width: 80%;
@@ -86,17 +95,18 @@ const Img = styled.img`
 `;
 
 const Img2 = styled.img`
-max-width: 70%;
-margin-bottom: 1%;
-@media (min-width: 912px) {
-
-max-height: 350px;}
-`
+  max-width: 70%;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  @media (min-width: 912px) {
+    max-height: 350px;
+  }
+`;
 const Des = styled.h2`
   font-family: var(--font-body);
+  font-size: 18px;
   margin-top: 2%;
   color: var(--color-green);
-
 `;
 
 const Wrapper = styled.div`
@@ -117,7 +127,7 @@ const Wrapper = styled.div`
 
 const Background = styled.div`
   height: 100vh;
-  background-color: #EA75A8;
+  background-color: #ea75a8;
   overflow: scroll;
 `;
 
@@ -125,7 +135,7 @@ const StyledLink = styled.a`
   margin-left: 3px;
   margin-right: 3px;
 
-  color: var(--color-green);;
+  color: var(--color-green);
   &:hover {
     color: var(--color-orange);
     /* transition: 300ms ease-in-out; */

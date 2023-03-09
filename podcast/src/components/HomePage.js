@@ -90,13 +90,13 @@ text-decoration: none;
 font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
-font-size: 20px;
+font-size: 22px;
 &:hover {
     color: var(--color-orange);
   }
 
   @media (min-width: 768px) {
-  font-size: 26px;
+  font-size: 28px;
   }
 
   @media (min-width: 900px) {
