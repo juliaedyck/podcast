@@ -19,7 +19,7 @@ const About = () => {
       </Close>
       <Wrapper>
         <Des>
-          a Kind of Harmony is looking to transcend the physical limitations of daily
+          A Kind of Harmony is looking to transcend the physical limitations of daily
           life. In each episode, we speak with a different practitioner
           who uses sound as a tool or method for connection, transcendence, and
           healing.
@@ -61,6 +61,24 @@ const About = () => {
               Mutual Design
             </StyledLink>{" "}
           </Des>
+               <Des>
+            Sound design by{" "}
+            <StyledLink
+              onClick={() => newWindow("https://www.irlhuman.com/")}
+              target="_blank"
+            >
+              IRL
+            </StyledLink>{" "}
+          </Des>
+          <Des>
+            Website by{" "}
+            <StyledLink
+              onClick={() => newWindow("https://www.juliaedyck.net/")}
+              target="_blank"
+            >
+              juliaedyck.net
+            </StyledLink>{" "}
+          </Des>
           <Des>
             If you’d like to support this project and what we do, please follow
             us on
@@ -69,7 +87,12 @@ const About = () => {
               target="_blank"
             >
              Instagram
-            </StyledLink> , or subscribe to our Patreon
+            </StyledLink> , or subscribe to our   <StyledLink
+              onClick={() => newWindow("patreon.com/aKindofHarmony")}
+              target="_blank"
+            >
+             Patreon
+            </StyledLink>
           </Des>
         </Des>
         <Logo>
