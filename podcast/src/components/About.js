@@ -88,7 +88,7 @@ const About = () => {
             >
              Instagram
             </StyledLink> , or subscribe to our   <StyledLink
-              onClick={() => newWindow("patreon.com/aKindofHarmony")}
+              onClick={() => newWindow("https://www.patreon.com/aKindofHarmony")}
               target="_blank"
             >
              Patreon
