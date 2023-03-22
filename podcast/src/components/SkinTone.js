@@ -1,6 +1,9 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
 import Photo from "../photos/james_square.jpg";
+import PDF from "../components/transcripts/A Kind of Harmony Ep.1 skin tone_transcript.pdf"
+import ResponsiveEmbed from "react-responsive-embed";
+import JamesAudio from "./players/JamesAudio";
 
 const SkinTone = () => {
   return (
@@ -15,7 +18,9 @@ const SkinTone = () => {
       <Wrapper>
 <Heading> EPISODE 1: SKIN TONE </Heading> 
         <Img src={Photo} alt="Skin Tone " />
-        <Heading> COMING 22.03.23</Heading> 
+        {/* <Heading> COMING 22.03.23</Heading> */}
+
+      <JamesAudio/>
         <Des>
           skin tone is a solo performance practice; is saxophone, voice, mbira
           and electronics; is an exploration of possible futures; is a space for
@@ -31,10 +36,14 @@ const SkinTone = () => {
       
         </Des>
         {/* <p>links</p> */}
+        <Transcript href = {PDF} target= "blank"> TRANSCRIPTION</Transcript> 
       </Wrapper>
     </Background>
   );
 };
+
+
+
 
 const Wrapper = styled.div`
   display: flex;
@@ -72,9 +81,22 @@ margin-bottom: 2%;
 font-size: 20px;
 `
 
+const Transcript = styled.a`
+font-family:  'DM Serif Display', serif;
+font-style: italic;
+color: var(--color-green);
+margin-bottom: 2%;
+margin-top: 2%;
+font-size: 20px;
+
+&:hover {
+    color: var(--color-pink);
+  }
+`
+
 const Des = styled.h2`
 font-family: var(--font-body);
-margin-top: 2%;
+margin-bottom: 2%;
 padding-left: 5%;
 padding-right: 5%;
 color: var(--color-green);
