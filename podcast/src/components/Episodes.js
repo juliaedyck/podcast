@@ -34,6 +34,15 @@ const Episodes = () => {
             <StyledNavLink to="/SkinTone">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+          <Heading> EPISODE 2: </Heading>
+            <Heading>SARAH FELDMAN </Heading>
+
+          <Des>Sarah discusses her practice as a musician including production process, and her relationship with pop music. </Des>
+
+            <StyledNavLink to="/Sarah">LISTEN</StyledNavLink>
+          </EpisodeContainer>
+
           {/* <EpisodeContainer>
           <Heading> EPISODE : ANDREA IYA YOUNG </Heading>
           <Des>a short descripttion </Des>
@@ -75,13 +84,7 @@ const Episodes = () => {
             <StyledNavLink to="/Rebecca">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
-          <EpisodeContainer>
-          <Heading> EPISODE : SARAH  </Heading>
-
-          <Des>a short descripttion </Des>
-
-            <StyledNavLink to="/Sarah">LISTEN</StyledNavLink>
-          </EpisodeContainer>
+       
 
           <EpisodeContainer>
           <Heading> EPISODE : NICK </Heading>
@@ -109,7 +112,7 @@ const EpisodeContainer = styled.div`
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2%;
+  margin-top: 4%;
 `;
 
 const Scroll = styled.div`

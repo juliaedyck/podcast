@@ -49,6 +49,8 @@ display: none;
 `
 
 const IFrameDesk = styled.iframe`
+padding-bottom: none;
+margin-bottom: none;
   @media (max-width: 768px) {
 display: none;
   }
