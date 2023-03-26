@@ -6,6 +6,12 @@ import { Link } from "react-router-dom";
 
 
 const Sarah = () => {
+
+  const newWindow = (url) => {
+    window.open(url, "newwindow");
+    return false;
+  };
+
   return (
     <>
     <Background>
@@ -26,7 +32,12 @@ const Sarah = () => {
           Music Composition from Concordia University.
         </Des>
 
-        <Des>find Sarah on <StyledLink to ="https://www.instagram.com/sarah_feldman_"  target ="blank">instagram </StyledLink></Des>
+        <Des>find Sarah on <StyledLink
+              onClick={() => newWindow("https://www.instagram.com/sarah_feldman_/")}
+              target="_blank"
+            >
+             Instagram
+            </StyledLink></Des>
     
         <Des>photo by Sam Garritano</Des>
       </Wrapper>
@@ -56,7 +67,7 @@ color: var(--color-green);
 margin-bottom: 2%;
 font-size: 20px;
 `
-const StyledLink = styled(Link)`
+const StyledLink = styled.a`
   margin-left: 3px;
   margin-right: 3px;
 
@@ -67,7 +78,6 @@ const StyledLink = styled(Link)`
     cursor: pointer;
   }
 `;
-
 const Des = styled.h2`
 font-family: var(--font-body);
 margin-bottom: 2%;
