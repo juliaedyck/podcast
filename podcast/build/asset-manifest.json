@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d6af8115.css",
-    "main.js": "/static/js/main.c2369bc9.js",
+    "main.js": "/static/js/main.49a51b6b.js",
     "static/js/787.6966d2df.chunk.js": "/static/js/787.6966d2df.chunk.js",
     "static/media/ashanti.jpg": "/static/media/ashanti.17ff132fe9498f127805.jpg",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
@@ -11,6 +11,7 @@
     "static/media/Olivia.jpg": "/static/media/Olivia.c066dbda91669edc5899.jpg",
     "static/media/square_3_small.jpg": "/static/media/square_3_small.189ae1fa2152b21b2944.jpg",
     "static/media/A Kind of Harmony Ep.1 skin tone_transcript.pdf": "/static/media/A Kind of Harmony Ep.1 skin tone_transcript.9b4da477ac7a40173aff.pdf",
+    "static/media/A Kind of Harmony_Sarah Feldman_Transcript.pdf": "/static/media/A Kind of Harmony_Sarah Feldman_Transcript.8f08d1a773994d40067c.pdf",
     "static/media/square_2_small.jpg": "/static/media/square_2_small.89b2d32acd2bb1a60470.jpg",
     "static/media/square_1_small.jpg": "/static/media/square_1_small.64240fa18494ca9f5c2b.jpg",
     "static/media/sarah_square_compressed.jpg": "/static/media/sarah_square_compressed.930501d6e84c1a9e53bd.jpg",
@@ -21,11 +22,11 @@
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.d6af8115.css.map": "/static/css/main.d6af8115.css.map",
-    "main.c2369bc9.js.map": "/static/js/main.c2369bc9.js.map",
+    "main.49a51b6b.js.map": "/static/js/main.49a51b6b.js.map",
     "787.6966d2df.chunk.js.map": "/static/js/787.6966d2df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6af8115.css",
-    "static/js/main.c2369bc9.js"
+    "static/js/main.49a51b6b.js"
   ]
 }
