@@ -28,19 +28,30 @@ const Episodes = () => {
         <Scroll>
           <EpisodeContainer>
             <Heading> EPISODE 1:</Heading>
-              <Heading> SKIN TONE </Heading>
+  
+            <StyledNavLink to="/SkinTone"> SKIN TONE</StyledNavLink>
+
 
             <Des> skin tone AKA James Goddard discusses jazz music, improvisation, and their potential social implications. </Des>
-            <StyledNavLink to="/SkinTone">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
           <EpisodeContainer>
           <Heading> EPISODE 2: </Heading>
-            <Heading>SARAH FELDMAN </Heading>
+            <StyledNavLink to="/Sarah">SARAH FELDMAN</StyledNavLink>
+   
 
           <Des>Sarah discusses her practice as a musician including production process, and her relationship with pop music. </Des>
 
-            <StyledNavLink to="/Sarah">LISTEN</StyledNavLink>
+
+          </EpisodeContainer>
+
+          <EpisodeContainer>
+          <Heading> EPISODE 3: </Heading>
+            <StyledNavLink to="/Jann"> JANN TOMARO</StyledNavLink>
+
+          <Des>Jann speaks to the relationship between sound and the nervous system and her practice of listening.
+ </Des>
+
           </EpisodeContainer>
 
           {/* <EpisodeContainer>
@@ -63,12 +74,7 @@ const Episodes = () => {
             <StyledNavLink to="/Jamilah">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
-          <EpisodeContainer>
-          <Heading> EPISODE : JANN TOMARO </Heading>
-          <Des>a short descripttion </Des>
-
-            <StyledNavLink to="/Jann">LISTEN</StyledNavLink>
-          </EpisodeContainer>
+   
 
           <EpisodeContainer>
           <Heading> EPISODE : OLIVIA </Heading>
@@ -112,7 +118,7 @@ const EpisodeContainer = styled.div`
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 4%;
+  margin-top: 5%;
 `;
 
 const Scroll = styled.div`
@@ -126,7 +132,9 @@ const StyledNavLink = styled(NavLink)`
 font-family:  'DM Serif Display', serif;
 font-style: italic;
 color: var(--color-green);
-margin-top: 2%;
+/* margin-top: 2%; */
+margin-bottom: 2%;
+
 font-size: 20px;
 
 &:hover {

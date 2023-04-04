@@ -39,25 +39,27 @@ position: relative; */
 
 const Img = styled.img`
   /* height: 100%; */
+  display: block;
   width: 80%;
+  height: auto;
   margin-top: 3%;
-  /* width: 1440; */
+  object-fit: contain;
+
 
   @media (min-width: 500px) {
  width: 70%;
+ height: auto;
+ max-width: 500px;
  max-height: 100vh;
-/* width: auto; */
 margin: 0;
- /* z-index: -1;
- position: fixed; */
+
   }
   @media (min-width: 912px) {
- /* width: 100%; */
- max-height: 100vh;
+
  max-width: 50%;
+ height: auto;
  margin: 0;
- /* z-index: -1;
- position: fixed; */
+
   }
 
 `

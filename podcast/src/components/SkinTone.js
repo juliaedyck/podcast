@@ -37,7 +37,8 @@ const SkinTone = () => {
         </Des>
         {/* <p>links</p> */}
         <Transcript href = {PDF} target= "blank"> TRANSCRIPTION</Transcript> 
-      </Wrapper>
+     <Des>photo by Ariel Bader-Shamai</Des>
+     </Wrapper>
     </Background>
   );
 };

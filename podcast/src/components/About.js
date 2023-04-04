@@ -93,6 +93,9 @@ const About = () => {
             >
              Patreon
             </StyledLink>
+            <Des> contact us at info@futurperfect.net</Des>
+            <Des> photo by Romo</Des>
+
           </Des>
         </Des>
         <Logo>
