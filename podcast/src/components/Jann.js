@@ -19,7 +19,7 @@ const Jann = () => {
       </a>
 
       <Wrapper>
-      <Heading>EPISODE : JANN TOMARO</Heading>
+      <Heading>EPISODE 3: JANN TOMARO</Heading>
         <Img src={Photo} alt="Jann Tomaro " />
         <Heading> COMING SOON</Heading>
      
