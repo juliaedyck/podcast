@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Photo from "../photos/sarah_square_compressed.jpg";
 import { Link } from "react-router-dom";
 import PDF from "../components/transcripts/A Kind of Harmony_Sarah Feldman_Transcript.pdf"
-
+import { BsInstagram } from "react-icons/bs";
+import { RiPatreonLine } from "react-icons/ri";
 
 const Sarah = () => {
   const newWindow = (url) => {
@@ -79,6 +80,25 @@ const Sarah = () => {
           </Des>
 
           <Des>photo by Sam Garritano</Des>
+          <Des>
+            {" "}
+            <StyledLink
+              onClick={() =>
+                newWindow("https://www.instagram.com/akindofharmony/")
+              }
+              target="_blank"
+            >
+              <BsInstagram />
+            </StyledLink>
+            <StyledLink
+              onClick={() =>
+                newWindow("https://www.patreon.com/aKindofHarmony")
+              }
+              target="_blank"
+            >
+              <RiPatreonLine />
+            </StyledLink>
+          </Des>
         </Wrapper>
       </Background>
     </>

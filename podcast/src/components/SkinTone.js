@@ -4,8 +4,16 @@ import Photo from "../photos/james_square.jpg";
 import PDF from "../components/transcripts/A Kind of Harmony Ep.1 skin tone_transcript.pdf"
 import ResponsiveEmbed from "react-responsive-embed";
 import JamesAudio from "./players/JamesAudio";
+import { BsInstagram } from "react-icons/bs";
+import { RiPatreonLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const SkinTone = () => {
+
+  const newWindow = (url) => {
+    window.open(url, "newwindow");
+    return false;
+  };
   return (
     <Background>
       <a href="Episodes">
@@ -38,6 +46,25 @@ const SkinTone = () => {
         {/* <p>links</p> */}
         <Transcript href = {PDF} target= "blank"> TRANSCRIPTION</Transcript> 
      <Des>photo by Ariel Bader-Shamai</Des>
+     <Des>
+            {" "}
+            <StyledLink
+              onClick={() =>
+                newWindow("https://www.instagram.com/akindofharmony/")
+              }
+              target="_blank"
+            >
+              <BsInstagram />
+            </StyledLink>
+            <StyledLink
+              onClick={() =>
+                newWindow("https://www.patreon.com/aKindofHarmony")
+              }
+              target="_blank"
+            >
+              <RiPatreonLine />
+            </StyledLink>
+          </Des>
      </Wrapper>
     </Background>
   );
@@ -110,4 +137,15 @@ height: 100vh;
 background-color: var(--color-orange);
 overflow:scroll;`
 
+const StyledLink = styled.a`
+margin-left: 3px;
+margin-right: 3px;
+
+color: var(--color-green);
+&:hover {
+  color: var(--color-orange);
+  /* transition: 300ms ease-in-out; */
+  cursor: pointer;
+}
+`;
 export default SkinTone;
