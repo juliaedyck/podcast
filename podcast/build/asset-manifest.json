@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.d6af8115.css",
-    "main.js": "/static/js/main.7fd2eee6.js",
+    "main.js": "/static/js/main.f6cecbe7.js",
     "static/js/787.6966d2df.chunk.js": "/static/js/787.6966d2df.chunk.js",
     "static/media/ashanti.jpg": "/static/media/ashanti.17ff132fe9498f127805.jpg",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
     "static/media/andrea.jpg": "/static/media/andrea.0f31d2e6b3f72b5e5c58.jpg",
     "static/media/rebecca.jpg": "/static/media/rebecca.41924e8bd7d28f2ecac4.jpg",
-    "static/media/jamilah.jpg": "/static/media/jamilah.7ccdc8d8b0811a8d4aa7.jpg",
     "static/media/Olivia.jpg": "/static/media/Olivia.c066dbda91669edc5899.jpg",
+    "static/media/jamilah_square.jpg": "/static/media/jamilah_square.7a8cd1a2db50d8478846.jpg",
     "static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.pdf": "/static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.63fffe296f05733eaca2.pdf",
     "static/media/square_3_small.jpg": "/static/media/square_3_small.189ae1fa2152b21b2944.jpg",
     "static/media/A Kind of Harmony Ep.1 skin tone_transcript.pdf": "/static/media/A Kind of Harmony Ep.1 skin tone_transcript.9b4da477ac7a40173aff.pdf",
+    "static/media/A Kind of Harmony Ep.4_Jamilah Malika Abu-Bakare_transcript.pdf": "/static/media/A Kind of Harmony Ep.4_Jamilah Malika Abu-Bakare_transcript.096325a7b235e2238de0.pdf",
     "static/media/A Kind of Harmony_Sarah Feldman_Transcript.pdf": "/static/media/A Kind of Harmony_Sarah Feldman_Transcript.8f08d1a773994d40067c.pdf",
     "static/media/square_2_small.jpg": "/static/media/square_2_small.89b2d32acd2bb1a60470.jpg",
     "static/media/square_1_small.jpg": "/static/media/square_1_small.64240fa18494ca9f5c2b.jpg",
@@ -23,11 +24,11 @@
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.d6af8115.css.map": "/static/css/main.d6af8115.css.map",
-    "main.7fd2eee6.js.map": "/static/js/main.7fd2eee6.js.map",
+    "main.f6cecbe7.js.map": "/static/js/main.f6cecbe7.js.map",
     "787.6966d2df.chunk.js.map": "/static/js/787.6966d2df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6af8115.css",
-    "static/js/main.7fd2eee6.js"
+    "static/js/main.f6cecbe7.js"
   ]
 }
