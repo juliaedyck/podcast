@@ -71,7 +71,7 @@ const Episodes = () => {
             <StyledNavLink to="/Backxwash"> BACKXWASH</StyledNavLink>
             <Des>
               We spoke with Backxwash about her practice as a
-              musician - we discussed sound as a decolonial force, rage as
+              musician. We discussed sound as a decolonial force, rage as
               catharsis and sampling as a way to reconnect with lineage & place
             </Des>
           </EpisodeContainer>
@@ -137,6 +137,7 @@ const Scroll = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 38%;
+  padding-bottom: 5%;
 
   @media (min-width: 760px) {
     max-width: 700px;
@@ -144,6 +145,7 @@ const Scroll = styled.div`
     margin-left: 50%;
     right: 0;
     margin-top: 2%;
+  
   }
 
   @media (max-width: 376px) {
