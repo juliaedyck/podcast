@@ -139,14 +139,32 @@ const Scroll = styled.div`
   margin-top: 38%;
   padding-bottom: 5%;
 
-  @media (min-width: 760px) {
+  @media (min-width: 500px) {
+  
+    margin-top: 50%;
+    padding-top:50%;
+  
+  }
+
+  @media (min-width: 780px) {
     max-width: 700px;
     position: relative;
     margin-left: 50%;
     right: 0;
-    margin-top: 2%;
+  margin-top: 30%;
+  padding-top:5%;
+
+
+}
+  @media (min-width: 900px) {
+    max-width: 700px;
+    position: relative;
+    margin-left: 50%;
+    right: 0;
+    margin-top: 7%;
   
   }
+
 
   @media (max-width: 376px) {
     padding-top: 300px;
