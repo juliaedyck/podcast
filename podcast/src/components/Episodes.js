@@ -66,18 +66,23 @@ const Episodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 5: </Heading>
+            <StyledNavLink to="/Backxwash"> BACKXWASH</StyledNavLink>
+            <Des>
+              We spoke with Backxwash about her practice as a
+              musician - we discussed sound as a decolonial force, rage as
+              catharsis and sampling as a way to reconnect with lineage & place
+            </Des>
+          </EpisodeContainer>
+
           {/* <EpisodeContainer>
           <Heading> EPISODE : ANDREA IYA YOUNG </Heading>
           <Des>a short descripttion </Des>
             <StyledNavLink to="/Andrea">LISTEN</StyledNavLink>
           </EpisodeContainer>
 
-          <EpisodeContainer>
-          <Heading> EPISODE : BACKXWASH </Heading>
-          <Des>a short descripttion </Des>
-
-            <StyledNavLink to="/Backxwash">LISTEN</StyledNavLink>
-          </EpisodeContainer>
+          
 
    
    
@@ -140,10 +145,9 @@ const Scroll = styled.div`
     right: 0;
     margin-top: 2%;
   }
-  
-  @media(max-width:290px) {
-  margin-top: 210px;
-    
+
+  @media (max-width: 376px) {
+    padding-top: 300px;
   }
 `;
 const StyledNavLink = styled(NavLink)`
@@ -225,8 +229,8 @@ const Squares = styled.div`
   justify-content: space-evenly;
   margin-bottom: 1%;
   position: fixed;
-top: 0;
-margin-top: 2%;
+  top: 0;
+  margin-top: 2%;
 
   @media (min-width: 768px) {
     flex-direction: column;
@@ -234,11 +238,10 @@ margin-top: 2%;
     max-width: 50%;
     /* position: sticky; */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-margin-top: 0px;
-
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    margin-top: 0px;
   }
 `;
 
