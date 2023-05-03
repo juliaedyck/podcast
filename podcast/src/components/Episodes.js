@@ -70,23 +70,23 @@ const Episodes = () => {
             <Heading> EPISODE 5: </Heading>
             <StyledNavLink to="/Backxwash"> BACKXWASH</StyledNavLink>
             <Des>
-              We spoke with Backxwash about her practice as a
-              musician. We discussed sound as a decolonial force, rage as
-              catharsis and sampling as a way to reconnect with lineage & place
+              We spoke with Backxwash about her practice as a musician. We
+              discussed sound as a decolonial force, rage as catharsis and
+              sampling as a way to reconnect with lineage & place
             </Des>
           </EpisodeContainer>
 
-          {/* <EpisodeContainer>
-          <Heading> EPISODE : ANDREA IYA YOUNG </Heading>
-          <Des>a short descripttion </Des>
-            <StyledNavLink to="/Andrea">LISTEN</StyledNavLink>
+          <EpisodeContainer>
+            <Heading> EPISODE 6: </Heading>
+            <StyledNavLink to="/Andrea"> ANDREA IYA YOUNG</StyledNavLink>
+            <Des>
+              We were curious to speak with Andrea about her practice as a
+              hypnotherapist - we discussed the voice as a portal to the
+              subconscious and the relationship between sound and trace state.{" "}
+            </Des>
           </EpisodeContainer>
 
-          
-
-   
-   
-
+          {/* 
           <EpisodeContainer>
           <Heading> EPISODE : OLIVIA </Heading>
           <Des>a short descripttion </Des>
@@ -115,7 +115,7 @@ const Episodes = () => {
           <Des>a short descripttion </Des>
 
             <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
-          </EpisodeContainer> */}
+          </EpisodeContainer>  */}
         </Scroll>
       </Wrapper>
     </Background>
@@ -140,10 +140,8 @@ const Scroll = styled.div`
   padding-bottom: 5%;
 
   @media (min-width: 500px) {
-  
     margin-top: 50%;
-    padding-top:50%;
-  
+    padding-top: 50%;
   }
 
   @media (min-width: 780px) {
@@ -151,20 +149,16 @@ const Scroll = styled.div`
     position: relative;
     margin-left: 50%;
     right: 0;
-  margin-top: 30%;
-  padding-top:5%;
-
-
-}
+    margin-top: 30%;
+    padding-top: 5%;
+  }
   @media (min-width: 900px) {
     max-width: 700px;
     position: relative;
     margin-left: 50%;
     right: 0;
     margin-top: 7%;
-  
   }
-
 
   @media (max-width: 376px) {
     padding-top: 300px;
