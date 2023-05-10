@@ -12,7 +12,7 @@ const Olivia = () => {
     return false;
   };
 
-  const embedUrl ="https://open.spotify.com/embed/episode/5QfJCJcq8EYaVLpsenNXF3?utm_source=generator"
+  const embedUrl ="https://open.spotify.com/embed/episode/4amWsMNyW1RV9WcWQvYM2N?utm_source=generator"
 
 
   return (
