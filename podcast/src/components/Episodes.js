@@ -138,13 +138,16 @@ const Scroll = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 48%;
-  padding-top: 58%;
-  padding-bottom: 5%;
+  margin-top: 30%;
+
+  padding-top: 20%;
+  padding-bottom: 10%;
+  margin-bottom: 7%;
+  height: 100vh;
 
   @media (min-width: 500px) {
-    margin-top: 60%;
-    padding-top: 60%;
+    margin-top: 20%;
+    padding-top: 20%;
   }
 
   @media (min-width: 760px) {
@@ -152,25 +155,26 @@ const Scroll = styled.div`
     position: relative;
     margin-left: 50%;
     right: 0;
-    margin-top: 30%;
-    padding-top: 50%;
+    /* margin-top: 30%; */
+    padding-top: 10%;
   }
   @media (min-width: 1000px) {
     max-width: 700px;
     position: relative;
     margin-left: 50%;
     right: 0;
-    padding-top: 15%;
-    margin-top: 20%;
+    padding-top: 5%;
+    margin-top: 5%;
   }
 
   @media (max-width: 376px) {
-    padding-top: 450px;
+    padding-top: 20%;
+    margin-top: 25%;
   }
 
   @media (max-width: 300px) {
-    padding-top: 550px;
-    margin-top:300px;
+    padding-top: 20%;
+    margin-top: 25%;
   }
 
   /* @media (min-height: 700px) {
