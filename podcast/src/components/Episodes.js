@@ -86,15 +86,17 @@ const Episodes = () => {
             </Des>
           </EpisodeContainer>
 
-          {/* 
           <EpisodeContainer>
-          <Heading> EPISODE : OLIVIA </Heading>
-          <Des>a short descripttion </Des>
-
-            <StyledNavLink to="/Olivia">LISTEN</StyledNavLink>
+            <Heading> EPISODE 7: </Heading>
+            <StyledNavLink to="/Olivia"> OLIVIA DREISINGER</StyledNavLink>
+            <Des>
+              Olivia shares her practice as a researcher and podcaster. We
+              discuss the intersections of disability and academia as well as
+              her unique relationship with sound.{" "}
+            </Des>
           </EpisodeContainer>
 
-          <EpisodeContainer>
+          {/* <EpisodeContainer>
           <Heading> EPISODE : REBECCA </Heading>
           <Des>a short descripttion </Des>
 
@@ -112,9 +114,9 @@ const Episodes = () => {
 
           <EpisodeContainer>
           <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
-          <Des>a short descripttion </Des>
+          <Des>a short descripttion </Des> */}
 
-            <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
+          {/* <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
           </EpisodeContainer>  */}
         </Scroll>
       </Wrapper>
@@ -136,33 +138,46 @@ const Scroll = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 38%;
+  margin-top: 48%;
+  padding-top: 58%;
   padding-bottom: 5%;
 
   @media (min-width: 500px) {
-    margin-top: 50%;
-    padding-top: 50%;
+    margin-top: 60%;
+    padding-top: 60%;
   }
 
-  @media (min-width: 780px) {
+  @media (min-width: 760px) {
     max-width: 700px;
     position: relative;
     margin-left: 50%;
     right: 0;
     margin-top: 30%;
-    padding-top: 5%;
+    padding-top: 50%;
   }
-  @media (min-width: 900px) {
+  @media (min-width: 1000px) {
     max-width: 700px;
     position: relative;
     margin-left: 50%;
     right: 0;
-    margin-top: 7%;
+    padding-top: 15%;
+    margin-top: 20%;
   }
 
   @media (max-width: 376px) {
-    padding-top: 300px;
+    padding-top: 450px;
   }
+
+  @media (max-width: 300px) {
+    padding-top: 550px;
+    margin-top:300px;
+  }
+
+  /* @media (min-height: 700px) {
+    padding-top: 10%;
+    margin-top: 20%;
+   
+  } */
 `;
 const StyledNavLink = styled(NavLink)`
   font-family: "DM Serif Display", serif;
