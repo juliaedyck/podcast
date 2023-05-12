@@ -73,7 +73,7 @@ width: 80%;
 @media (min-width: 500px) {
  /* z-index: -1;
  position: fixed; */
- width: 70%;
+ width: 77%;
   }
 
 @media (min-width: 900px) {
