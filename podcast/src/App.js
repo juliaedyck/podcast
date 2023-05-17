@@ -13,7 +13,8 @@ import Olivia from "./components/Olivia";
 import Rebecca from "./components/Rebecca";
 import Sarah from "./components/Sarah";
 import GlobalStyles from "./components/GlobalStyles";
-import JamesAudio from "./components/players/JamesAudio";
+import Nick from "./components/Nick";
+
 
 const App  =() => {
   return (
@@ -34,6 +35,8 @@ const App  =() => {
             <Route path="/Olivia" element={<Olivia/>} />
             <Route path="/Rebecca" element={<Rebecca/>} />
             <Route path="/Sarah" element={<Sarah/>} />
+            <Route path="/Nick" element={<Nick/>} />
+
 
 
 

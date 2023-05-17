@@ -96,6 +96,17 @@ const Episodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 8 : </Heading>
+            <StyledNavLink to="/Nick"> NICK DOURADO</StyledNavLink>
+            <Des>
+              We spoke with Nick about their practice as a
+              musician and collaborator. We discussed their time at The Creative
+              Music Workshop, the erosion of music literacy, and consciousness
+              elevation.
+            </Des>
+          </EpisodeContainer>
+
           {/* <EpisodeContainer>
           <Heading> EPISODE : REBECCA </Heading>
           <Des>a short descripttion </Des>
@@ -105,12 +116,6 @@ const Episodes = () => {
 
        
 
-          <EpisodeContainer>
-          <Heading> EPISODE : NICK </Heading>
-          <Des>a short descripttion </Des>
-
-            <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
-          </EpisodeContainer>
 
           <EpisodeContainer>
           <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
