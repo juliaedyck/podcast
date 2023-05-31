@@ -100,23 +100,25 @@ const Episodes = () => {
             <Heading> EPISODE 8 : </Heading>
             <StyledNavLink to="/Nick"> NICK DOURADO</StyledNavLink>
             <Des>
-              We spoke with Nick about their practice as a
-              musician and collaborator. We discussed their time at The Creative
-              Music Workshop, the erosion of music literacy, and consciousness
+              We spoke with Nick about their practice as a musician and
+              collaborator. We discussed their time at The Creative Music
+              Workshop, the erosion of music literacy, and consciousness
               elevation.
             </Des>
           </EpisodeContainer>
 
-          {/* <EpisodeContainer>
-          <Heading> EPISODE : REBECCA </Heading>
-          <Des>a short descripttion </Des>
+          <EpisodeContainer>
+            <Heading> EPISODE 9: </Heading>
+            <StyledNavLink to="/Rebecca"> REBECCA MANANKIL</StyledNavLink>
 
-            <StyledNavLink to="/Rebecca">LISTEN</StyledNavLink>
+            <Des>
+              We were curious to speak with Rebecca about her practice as a
+              sound healer - we discussed traditional Filipina sound healing
+              practices, corporate sound baths and human design.
+            </Des>
           </EpisodeContainer>
 
-       
-
-
+          {/* 
           <EpisodeContainer>
           <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
           <Des>a short descripttion </Des> */}
