@@ -12,7 +12,7 @@ const Glenn = () => {
   };
 
   const embedUrl =
-    "https://open.spotify.com/embed/episode/11q9JphSSP1ZnkSeKUwcW2?utm_source=generator";
+    "https://open.spotify.com/embed/episode/6faZOFaJ5MSOv6Nng0YaV9?utm_source=generator";
 
   return (
     <>
