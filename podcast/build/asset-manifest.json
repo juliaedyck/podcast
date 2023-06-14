@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d6af8115.css",
-    "main.js": "/static/js/main.385cd2b7.js",
+    "main.js": "/static/js/main.270c8500.js",
     "static/js/787.6966d2df.chunk.js": "/static/js/787.6966d2df.chunk.js",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
+    "static/media/glenn (1).jpg": "/static/media/glenn (1).9abb8f90e73098969a72.jpg",
     "static/media/jamilah_square.jpg": "/static/media/jamilah_square.7a8cd1a2db50d8478846.jpg",
     "static/media/A Kind of Harmony_Nick_Dourado_Transcript.pdf": "/static/media/A Kind of Harmony_Nick_Dourado_Transcript.1cf2d23c59c95943b247.pdf",
     "static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.pdf": "/static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.63fffe296f05733eaca2.pdf",
@@ -12,6 +13,7 @@
     "static/media/A Kind of Harmony_Ep.9_Rebecca.pdf": "/static/media/A Kind of Harmony_Ep.9_Rebecca.9dad1c9e121e8dc53d65.pdf",
     "static/media/A Kind of Harmony_Andrea_Transcript.pdf": "/static/media/A Kind of Harmony_Andrea_Transcript.43973fe616d3464afe35.pdf",
     "static/media/square_3_small.jpg": "/static/media/square_3_small.189ae1fa2152b21b2944.jpg",
+    "static/media/A Kind of Harmony_BGC.pdf": "/static/media/A Kind of Harmony_BGC.bb9fe6283467b483190a.pdf",
     "static/media/A Kind of Harmony_Olivia_transcription.pdf": "/static/media/A Kind of Harmony_Olivia_transcription.cb84594b84af33f9fffe.pdf",
     "static/media/nick.jpg": "/static/media/nick.48e147ff15356ff3a40f.jpg",
     "static/media/A Kind of Harmony Ep.1 skin tone_transcript.pdf": "/static/media/A Kind of Harmony Ep.1 skin tone_transcript.9b4da477ac7a40173aff.pdf",
@@ -30,11 +32,11 @@
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.d6af8115.css.map": "/static/css/main.d6af8115.css.map",
-    "main.385cd2b7.js.map": "/static/js/main.385cd2b7.js.map",
+    "main.270c8500.js.map": "/static/js/main.270c8500.js.map",
     "787.6966d2df.chunk.js.map": "/static/js/787.6966d2df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6af8115.css",
-    "static/js/main.385cd2b7.js"
+    "static/js/main.270c8500.js"
   ]
 }
