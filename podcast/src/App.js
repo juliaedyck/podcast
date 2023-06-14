@@ -14,6 +14,8 @@ import Rebecca from "./components/Rebecca";
 import Sarah from "./components/Sarah";
 import GlobalStyles from "./components/GlobalStyles";
 import Nick from "./components/Nick";
+import Glenn from "./components/Glenn";
+
 
 
 const App  =() => {
@@ -36,6 +38,9 @@ const App  =() => {
             <Route path="/Rebecca" element={<Rebecca/>} />
             <Route path="/Sarah" element={<Sarah/>} />
             <Route path="/Nick" element={<Nick/>} />
+            <Route path="/Glenn" element={<Glenn/>} />
+
+
 
 
 

@@ -26,7 +26,7 @@ const Nick = () => {
 
         <Wrapper>
           <Heading> EPISODE 8: NICK DOURADO </Heading>
-          <Img src={Photo} alt=" Andrea Iya Young" />
+          <Img src={Photo} alt=" NICK DOURADO" />
 
           <IFrameMobile
             src={embedUrl}

@@ -101,7 +101,7 @@ const Rebecca = () => {
         <Des>
         <StyledLink
             onClick={() =>
-              newWindow(" www.RebeccaManankil.com/")
+              newWindow("https://www.rebeccamanankil.com/")
             }
             target="_blank">
               www.RebeccaManankil.com</StyledLink>

@@ -118,6 +118,15 @@ const Episodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 10: </Heading>
+            <StyledNavLink to="/Glenn"> BEVERLY GLENN-COPELAND</StyledNavLink>
+
+            <Des>
+            We spoke with legendary Canadian/American singer, composer and transgender activist Beverly Glenn-Copeland about his process, making music for future generations and the Universal Broadcasting System.
+            </Des>
+          </EpisodeContainer>
+
           {/* 
           <EpisodeContainer>
           <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
@@ -221,6 +230,8 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 
   @media (min-width: 768px) {
     flex-direction: row;
