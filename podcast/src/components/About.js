@@ -142,6 +142,8 @@ const Wrapper = styled.div`
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 5%;
+  
   height: 90%;
 
   @media (min-width: 768px) {
