@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6af8115.css",
-    "main.js": "/static/js/main.5c2f2cb1.js",
-    "static/js/787.6966d2df.chunk.js": "/static/js/787.6966d2df.chunk.js",
+    "main.css": "/static/css/main.75d6b1d2.css",
+    "main.js": "/static/js/main.6d74b58b.js",
+    "static/js/787.e15ef197.chunk.js": "/static/js/787.e15ef197.chunk.js",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
     "static/media/glenn (1).jpg": "/static/media/glenn (1).9abb8f90e73098969a72.jpg",
+    "static/media/11.jpg": "/static/media/11.c976c7472916b9e75ff3.jpg",
+    "static/media/12.jpg": "/static/media/12.cf4a6753cb16ee0504e8.jpg",
+    "static/media/8.jpg": "/static/media/8.1a14f81a8b6da32df43e.jpg",
     "static/media/jamilah_square.jpg": "/static/media/jamilah_square.7a8cd1a2db50d8478846.jpg",
     "static/media/A Kind of Harmony_Nick_Dourado_Transcript.pdf": "/static/media/A Kind of Harmony_Nick_Dourado_Transcript.1cf2d23c59c95943b247.pdf",
     "static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.pdf": "/static/media/A Kind of Harmony Ep.3 Jann Tomaro_transcript.63fffe296f05733eaca2.pdf",
@@ -18,25 +21,25 @@
     "static/media/nick.jpg": "/static/media/nick.48e147ff15356ff3a40f.jpg",
     "static/media/A Kind of Harmony Ep.1 skin tone_transcript.pdf": "/static/media/A Kind of Harmony Ep.1 skin tone_transcript.9b4da477ac7a40173aff.pdf",
     "static/media/A Kind of Harmony Ep.4_Jamilah Malika Abu-Bakare_transcript.pdf": "/static/media/A Kind of Harmony Ep.4_Jamilah Malika Abu-Bakare_transcript.096325a7b235e2238de0.pdf",
+    "static/media/36.jpg": "/static/media/36.8e3bb870c45e3edb032f.jpg",
     "static/media/A Kind of Harmony_Sarah Feldman_Transcript.pdf": "/static/media/A Kind of Harmony_Sarah Feldman_Transcript.8f08d1a773994d40067c.pdf",
     "static/media/olivia.jpg": "/static/media/olivia.0c9d0f546344c8431075.jpg",
     "static/media/A Kind of Harmony_Backxwash_Transcript.pdf": "/static/media/A Kind of Harmony_Backxwash_Transcript.e3f1834575f5dc87f6e3.pdf",
     "static/media/square_2_small.jpg": "/static/media/square_2_small.89b2d32acd2bb1a60470.jpg",
     "static/media/square_1_small.jpg": "/static/media/square_1_small.64240fa18494ca9f5c2b.jpg",
     "static/media/sarah_square_compressed.jpg": "/static/media/sarah_square_compressed.930501d6e84c1a9e53bd.jpg",
-    "static/media/AKOH Banner Square.jpg": "/static/media/AKOH Banner Square.0ed8b3fc1d34e757caeb.jpg",
     "static/media/j_a_square.jpg": "/static/media/j_a_square.98d79af25b3a726065d7.jpg",
     "static/media/rebecca square.jpg": "/static/media/rebecca square.35108e6f57f4e57a9882.jpg",
     "static/media/james_square.jpg": "/static/media/james_square.a53dbd0a44316fa7fc50.jpg",
     "static/media/jann.jpg": "/static/media/jann.2fd0e2ce7842a1127da9.jpg",
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
-    "main.d6af8115.css.map": "/static/css/main.d6af8115.css.map",
-    "main.5c2f2cb1.js.map": "/static/js/main.5c2f2cb1.js.map",
-    "787.6966d2df.chunk.js.map": "/static/js/787.6966d2df.chunk.js.map"
+    "main.75d6b1d2.css.map": "/static/css/main.75d6b1d2.css.map",
+    "main.6d74b58b.js.map": "/static/js/main.6d74b58b.js.map",
+    "787.e15ef197.chunk.js.map": "/static/js/787.e15ef197.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6af8115.css",
-    "static/js/main.5c2f2cb1.js"
+    "static/css/main.75d6b1d2.css",
+    "static/js/main.6d74b58b.js"
   ]
 }

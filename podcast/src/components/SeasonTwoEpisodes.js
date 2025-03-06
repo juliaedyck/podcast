@@ -1,12 +1,20 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import James from "../photos/james_2.jpg";
-import Square1 from "../photos/squares/square_1_small.jpg";
-import Square2 from "../photos/squares/square_2_small.jpg";
-import Square3 from "../photos/squares/square_3_small.jpg";
+import Square1 from "../photos/squares/8.jpg";
+import Square2 from "../photos/squares/11.jpg";
+import Square3 from "../photos/squares/36.jpg";
 
-const Episodes = () => {
+const SeasonTwoEpisodes = () => {
+
+    const newWindow = (url) => {
+        window.open(url, "newwindow");
+        return false;
+      };
+    
+
+
   return (
     <Background>
       <Close>
@@ -21,19 +29,45 @@ const Episodes = () => {
           <Img src={Square3} alt=" " />
         </Squares>
         <Scroll>
-          <EpisodeContainer>
+
+        <EpisodeContainer>
+            <Heading> SEASON 2</Heading>
+
+            <StyledLink
+              onClick={() =>
+                newWindow("https://phi.ca/en/events/habitat-sonore-a-kind-of-harmony/#schedule")
+              }
+              target="_blank"
+            >
+             Produced in immersive multichannel for the PHI Centre's Habitat Sonore
+            </StyledLink>
+            <Des>
+
+            Season 2 explores sound in the context of its social, political, and environmental implications. This series of immersive conversations investigate the ways that sound and listening can shape and inform our daily interactions.
+            </Des>
+<br></br>
+            <Des>
+
+            Through six interviews and accompanying sound pieces, hosts Julia and Amanda invite us to reconsider our relationship with sound; how can we resonate with what’s around us?
+</Des>
+<br></br>
+<Des> Season 2 will be released online in binaural starting March 13 2025. Stay tuned until then!</Des>
+          </EpisodeContainer>
+
+            
+          {/* <EpisodeContainer>
             <Heading> EPISODE 1:</Heading>
 
-            <StyledNavLink to="/SkinTone"> SKIN TONE</StyledNavLink>
+            <StyledNavLink to="/Amanda">
+            Amanda Gutierréz, Feminist Sonographies and Decolonial Listening</StyledNavLink>
 
             <Des>
               {" "}
-              skin tone AKA James Goddard discusses jazz music, improvisation,
-              and their potential social implications.{" "}
+              Amanda describes her soundwalking practice from a decolonial and feminist approach{" "}
             </Des>
-          </EpisodeContainer>
+          </EpisodeContainer> */}
 
-          <EpisodeContainer>
+          {/* <EpisodeContainer>
             <Heading> EPISODE 2: </Heading>
             <StyledNavLink to="/Sarah">SARAH FELDMAN</StyledNavLink>
 
@@ -84,48 +118,11 @@ const Episodes = () => {
               hypnotherapist - we discussed the voice as a portal to the
               subconscious and the relationship between sound and trace state.{" "}
             </Des>
-          </EpisodeContainer>
+          </EpisodeContainer> */}
 
-          <EpisodeContainer>
-            <Heading> EPISODE 7: </Heading>
-            <StyledNavLink to="/Olivia"> OLIVIA DREISINGER</StyledNavLink>
-            <Des>
-              Olivia shares her practice as a researcher and podcaster. We
-              discuss the intersections of disability and academia as well as
-              her unique relationship with sound.{" "}
-            </Des>
-          </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading> EPISODE 8 : </Heading>
-            <StyledNavLink to="/Nick"> NICK DOURADO</StyledNavLink>
-            <Des>
-              We spoke with Nick about their practice as a musician and
-              collaborator. We discussed their time at The Creative Music
-              Workshop, the erosion of music literacy, and consciousness
-              elevation.
-            </Des>
-          </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading> EPISODE 9: </Heading>
-            <StyledNavLink to="/Rebecca"> REBECCA MANANKIL</StyledNavLink>
-
-            <Des>
-              We were curious to speak with Rebecca about her practice as a
-              sound healer - we discussed traditional Filipina sound healing
-              practices, corporate sound baths and human design.
-            </Des>
-          </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading> EPISODE 10: </Heading>
-            <StyledNavLink to="/Glenn"> BEVERLY GLENN-COPELAND</StyledNavLink>
-
-            <Des>
-            We spoke with legendary Canadian/American singer, composer and transgender activist Beverly Glenn-Copeland about his process, making music for future generations and the Universal Broadcasting System.
-            </Des>
-          </EpisodeContainer>
+     
+        
+  
 
           {/* 
           <EpisodeContainer>
@@ -202,25 +199,42 @@ const Scroll = styled.div`
 const StyledNavLink = styled(NavLink)`
   font-family: "DM Serif Display", serif;
   font-style: italic;
-  color: var(--color-green);
+  color:  #162fc3;;
   /* margin-top: 2%; */
   margin-bottom: 2%;
 
   font-size: 20px;
 
   &:hover {
-    color: var(--color-orange);
+    color: #9e93f4;
     /* transition: 300ms ease-in-out; */
     cursor: pointer;
   }
 `;
 
+const StyledLink = styled(Link)`
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  color:  #162fc3;;
+  /* margin-top: 2%; */
+  margin-bottom: 2%;
+
+  font-size: 20px;
+
+  &:hover {
+    color: #9e93f4;
+    /* transition: 300ms ease-in-out; */
+    cursor: pointer;
+  }
+`
+
 const Img = styled.img`
-  max-width: 30%;
+  max-width: 33%;
 
   @media (min-width: 768px) {
-    max-height: 255px;
-    max-width: 255px;
+   height: 33%;
+   max-height:33%;
+   max-width: fit-content;
   }
 `;
 
@@ -245,7 +259,7 @@ const Wrapper = styled.div`
 const Background = styled.div`
   height: 100vh;
   max-width: 100%;
-  background-color: var(--color-blue);
+  background-color: #ceb2ff;;
   overflow-y: scroll;
 `;
 const Close = styled.div`
@@ -261,14 +275,14 @@ const Close = styled.div`
 const Heading = styled.h1`
   font-family: "DM Serif Display", serif;
   font-style: italic;
-  color: var(--color-green);
+  color: #162fc3;
   margin-bottom: 2%;
   font-size: 20px;
 `;
 
 const Des = styled.h2`
   font-family: var(--font-body);
-  color: var(--color-green);
+  color:  #162fc3;
   font-size: 18px;
 `;
 
@@ -293,7 +307,9 @@ const Squares = styled.div`
     top: 0; /* Stay at the top */
     left: 0;
     margin-top: 0px;
+    
+    height: 100vh;
   }
 `;
 
-export default Episodes;
+export default SeasonTwoEpisodes;

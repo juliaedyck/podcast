@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
-import Background from "../photos/AKOH Banner Square.jpg"
+import Background from "../photos/12.jpg"
 
 const HomePage = () => {
 
@@ -8,11 +8,13 @@ const HomePage = () => {
 
     
     <Wrapper>
-    <Links>
-    <StyledNavLink to="/About">   ABOUT</StyledNavLink>
-    <StyledNavLink to="/Episodes">EPISODES</StyledNavLink>
-    </Links>
     <Img src = {Background}/>
+    <Links>
+    <StyledNavLink to="/Episodes">SEASON 1</StyledNavLink>
+    <StyledNavLink to="/SeasonTwo">SEASON 2</StyledNavLink>
+
+    <StyledNavLink to="/About">   ABOUT</StyledNavLink>
+    </Links>
 
     </Wrapper>
     )
@@ -20,7 +22,7 @@ const HomePage = () => {
 const Wrapper = styled.div`
 max-width: 100%;
 height: 100vh;
-background-color: var(--color-blue);
+background-color: #cdacfb;
 
 color: var(--color-green);
 font-family: var(--font-body);
@@ -31,9 +33,10 @@ justify-content: center;
 /* position: relative; */
 /* z-index: -10; */
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
   /* z-index: -5000;
 position: relative; */
+align-items:flex-start;
   }
 `
 
@@ -69,17 +72,23 @@ flex-direction: row;
 align-items: space-between;
 justify-content: space-between;
 width: 80%;
+margin-top: 5%;
 
 @media (min-width: 500px) {
  /* z-index: -1;
  position: fixed; */
  width: 77%;
+ 
   }
 
 @media (min-width: 900px) {
-margin-left: 1.5%;
  z-index: 1000;
  position: fixed;
+flex-direction: column;
+margin-left: 60%;
+width: fit-content;
+margin-top: 0%;
+
 
 
 
@@ -91,10 +100,10 @@ const StyledNavLink = styled(NavLink)`
 text-decoration: none;
 font-family:  'DM Serif Display', serif;
 font-style: italic;
-color: var(--color-green);
+color:  #162fc3;
 font-size: 22px;
 &:hover {
-    color: var(--color-orange);
+    color:  #9e93f4;
   }
 
   @media (min-width: 768px) {

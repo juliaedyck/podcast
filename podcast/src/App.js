@@ -15,6 +15,8 @@ import Sarah from "./components/Sarah";
 import GlobalStyles from "./components/GlobalStyles";
 import Nick from "./components/Nick";
 import Glenn from "./components/Glenn";
+import SeasonTwoEpisodes from "./components/SeasonTwoEpisodes";
+import Amanda from "./components/Amanda";
 
 
 
@@ -39,6 +41,10 @@ const App  =() => {
             <Route path="/Sarah" element={<Sarah/>} />
             <Route path="/Nick" element={<Nick/>} />
             <Route path="/Glenn" element={<Glenn/>} />
+            <Route path="/SeasonTwo" element={<SeasonTwoEpisodes/>} />
+            <Route path="/Amanda" element={<Amanda/>} />
+
+
 
 
 
