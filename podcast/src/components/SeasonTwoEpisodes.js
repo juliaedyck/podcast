@@ -51,11 +51,10 @@ const SeasonTwoEpisodes = () => {
             Through six interviews and accompanying sound pieces, hosts Julia and Amanda invite us to reconsider our relationship with sound; how can we resonate with what’s around us?
 </Des>
 <br></br>
-<Des> Season 2 will be released online in binaural starting March 13 2025. Stay tuned until then!</Des>
           </EpisodeContainer>
 
             
-          {/* <EpisodeContainer>
+          <EpisodeContainer>
             <Heading> EPISODE 1:</Heading>
 
             <StyledNavLink to="/Amanda">
@@ -65,7 +64,7 @@ const SeasonTwoEpisodes = () => {
               {" "}
               Amanda describes her soundwalking practice from a decolonial and feminist approach{" "}
             </Des>
-          </EpisodeContainer> */}
+          </EpisodeContainer>
 
           {/* <EpisodeContainer>
             <Heading> EPISODE 2: </Heading>

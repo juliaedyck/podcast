@@ -1,38 +1,36 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
-import Photo from "../photos/andrea.jpg";
+import Photo from "../photos/Ep1.jpg";
 import { BsInstagram } from "react-icons/bs";
 import { RiPatreonLine } from "react-icons/ri";
-import PDF from "../components/transcripts/A Kind of Harmony_Andrea_Transcript.pdf"
-
+import PDF from "../components/transcripts/A Kind of Harmony_Andrea_Transcript.pdf";
 
 const Amanda = () => {
-
   const newWindow = (url) => {
     window.open(url, "newwindow");
     return false;
   };
 
-  const embedUrl ="https://open.spotify.com/embed/episode/5QfJCJcq8EYaVLpsenNXF3?utm_source=generator"
-
-
+  const embedUrl =
+    "https://open.spotify.com/embed/episode/0WOhsqPx30WE49ZVyk2Bov?utm_source=generator";
 
   return (
     <>
-    <Background>
+      <Background>
+        <a href="SeasonTwo">
+          <Close>
+            {" "}
+            <CloseButton aria-label="Hide" />
+          </Close>
+        </a>
 
-      <a href="Episodes">
-        <Close>
-          {" "}
-          <CloseButton aria-label="Hide" />
-        </Close>
-      </a>
+        <Wrapper>
+          <Heading> EPISODE 1:
+Amanda Gutierréz, Feminist Sonographies and Decolonial Listening
+ </Heading>
+          <Img src={Photo} alt=" Andrea Iya Young" />
 
-      <Wrapper>
-      <Heading> EPISODE 6: ANDREA IYA YOUNG </Heading>
-        <Img src={Photo} alt=" Andrea Iya Young" />
-
-        <IFrameMobile
+          <IFrameMobile
             src={embedUrl}
             className="iframe"
             title="a Kind of Harmony"
@@ -63,25 +61,40 @@ const Amanda = () => {
             }}
             data-name="pb-iframe-player"
           />
-        <Des>
-          Andrea Young is a multi-disciplinary artist, writer, healer and
-          gardener living in Potton, Quebec. She is the founder of Young
-          Ascension Hypnosis since 2015 and since 2020 The Mystical Order of the
-          Infinite Fountain, her own hypnosis lineage and school.
+          <Des>
+            Amanda Gutierréz is an artist and researcher who uses sound and
+            performance art to investigate how aural conditions affect everyday
+            life. She describes her soundwalking practice from a decolonial and
+            feminist approach and shares how oral history, recording and
+            producing sound can offer the potential to take back and to resist.
           </Des>
           <Des>
-          Her work swims at the intersection of Art x Earth x Spirit and how
-          finding trance in that space can elicit or preserve an experience of
-          Home.
+            Trained and graduated initially as a stage designer from The
+            National School of Theater (Mexico City). Gutierréz uses sound and
+            performance art to investigate how these aural conditions affect
+            everyday life. Gutierréz is actively advocating listening practices
+            while being one of the board of directors of the World Listening
+            Project, formerly working with The Midwest Society of Acoustic
+            Ecology, and currently as the scientific comitée of the Red Ecología
+            Acústica México.
           </Des>
           <Des>
-          She is anchored by life ways of the circumpolar and Pacific regions
-          and is of Ukrainian and Mohawk heritage. She was raised on Treaty 4
-          lands surrounding the Qu'apelle Valley in the Saskatchewan prairies.
+            Now, she is a Ph.D. student at Concordia University in the
+            Department of Art and Humanities. Gutierréz is a recipient of the
+            FRQSC Doctoral Award, developing her research-creation,
+            Sono-(soro)rities, a multi-year sound studies project in
+            collaboration with feminist scholars from Latin America and Canada.
           </Des>
 
-          <Des>Andrea’s sound piece is titled <i>when you listen, they listen back</i></Des>
-          <Transcript href = {PDF} target= "blank"> TRANSCRIPTION</Transcript> 
+          <Des>
+            Amanda’s soundpiece retraces her grandmother's steps while in
+            dialogue about indigenous traditions of rootness, and her ancestors'
+            experience of migration
+          </Des>
+          {/* <Transcript href={PDF} target="blank">
+            {" "}
+            TRANSCRIPTION
+          </Transcript> */}
           <Des>
             <StyledLink
               onClick={() =>
@@ -99,9 +112,8 @@ const Amanda = () => {
             >
               <RiPatreonLine />
             </StyledLink>
-            </Des>
-     
-      </Wrapper>
+          </Des>
+        </Wrapper>
       </Background>
     </>
   );
@@ -110,7 +122,7 @@ const Amanda = () => {
 const Heading = styled.h1`
   font-family: "DM Serif Display", serif;
   font-style: italic;
-  color: var(--color-green);
+  color: #3736a3;
   margin-bottom: 2%;
   font-size: 20px;
 `;
@@ -120,7 +132,7 @@ const Des = styled.h2`
   margin-bottom: 2%;
   padding-left: 5%;
   padding-right: 5%;
-  color: var(--color-green);
+  color:#3736a3;
   font-size: 18px;
 `;
 
@@ -133,8 +145,8 @@ const Wrapper = styled.div`
 
   @media (min-width: 768px) {
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 `;
 
@@ -154,47 +166,44 @@ const Close = styled.div`
 
 const Background = styled.div`
   height: 100vh;
-  background-color: var(--color-blue);
+  background-color: #c9bade;
   overflow: scroll;
 `;
 
-
 const IFrameMobile = styled.iframe`
   @media (min-width: 768px) {
-display: none;
+    display: none;
   }
-`
+`;
 
 const IFrameDesk = styled.iframe`
-padding-bottom: none;
-margin-bottom: none;
+  padding-bottom: none;
+  margin-bottom: none;
   @media (max-width: 768px) {
-display: none;
+    display: none;
   }
-`
+`;
 
 const Transcript = styled.a`
-font-family:  'DM Serif Display', serif;
-font-style: italic;
-color: var(--color-green);
-margin-bottom: 2%;
-margin-top: 2%;
-font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  color: #3736a3;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-size: 20px;
 
-&:hover {
+  &:hover {
     color: var(--color-pink);
   }
-
-
-`
+`;
 
 const StyledLink = styled.a`
   margin-left: 3px;
   margin-right: 3px;
 
-  color: var(--color-green);
+  color: #3736a3;
   &:hover {
-    color: var(--color-orange);
+    color: #9e93f4;
     /* transition: 300ms ease-in-out; */
     cursor: pointer;
   }
