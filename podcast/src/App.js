@@ -17,7 +17,7 @@ import Nick from "./components/Nick";
 import Glenn from "./components/Glenn";
 import SeasonTwoEpisodes from "./components/SeasonTwoEpisodes";
 import Amanda from "./components/Amanda";
-
+import Chantal from "./components/Chantal";
 
 
 const App  =() => {
@@ -43,6 +43,8 @@ const App  =() => {
             <Route path="/Glenn" element={<Glenn/>} />
             <Route path="/SeasonTwo" element={<SeasonTwoEpisodes/>} />
             <Route path="/Amanda" element={<Amanda/>} />
+            <Route path="/Chantal" element={<Chantal/>} />
+
 
 
 

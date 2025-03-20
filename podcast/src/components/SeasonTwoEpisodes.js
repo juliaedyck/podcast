@@ -66,6 +66,18 @@ const SeasonTwoEpisodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 2:</Heading>
+
+            <StyledNavLink to="/Chantal">
+            Chantal Dumas, publique et intime</StyledNavLink>
+
+            <Des>
+              {" "}
+              Chantal partage sa connaissance de la perception et de l'interaction avec l'espace public, ainsi que ses recherches sur les sons de refuge.{" "}
+            </Des>
+          </EpisodeContainer>
+
           {/* <EpisodeContainer>
             <Heading> EPISODE 2: </Heading>
             <StyledNavLink to="/Sarah">SARAH FELDMAN</StyledNavLink>
