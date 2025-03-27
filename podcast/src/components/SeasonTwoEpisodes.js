@@ -78,6 +78,19 @@ const SeasonTwoEpisodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 3:</Heading>
+
+            <StyledNavLink to="/Rehab">
+            Rehab Nazzal, Listening to Occupation and Sounding Resistance
+</StyledNavLink>
+
+            <Des>
+              {" "}
+             Rehab describes the sonic environment of living in occupied Palestine and discusses sounds of resistance and the implications of silence.{" "}
+            </Des>
+          </EpisodeContainer>
+
           {/* <EpisodeContainer>
             <Heading> EPISODE 2: </Heading>
             <StyledNavLink to="/Sarah">SARAH FELDMAN</StyledNavLink>

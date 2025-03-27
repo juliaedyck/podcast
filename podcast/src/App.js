@@ -18,6 +18,7 @@ import Glenn from "./components/Glenn";
 import SeasonTwoEpisodes from "./components/SeasonTwoEpisodes";
 import Amanda from "./components/Amanda";
 import Chantal from "./components/Chantal";
+import Rehab from "./components/Rehab";
 
 
 const App  =() => {
@@ -44,6 +45,8 @@ const App  =() => {
             <Route path="/SeasonTwo" element={<SeasonTwoEpisodes/>} />
             <Route path="/Amanda" element={<Amanda/>} />
             <Route path="/Chantal" element={<Chantal/>} />
+            <Route path="/Rehab" element={<Rehab/>} />
+
 
 
 
