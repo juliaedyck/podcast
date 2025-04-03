@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75d6b1d2.css",
-    "main.js": "/static/js/main.51ac73ca.js",
+    "main.js": "/static/js/main.7e1964df.js",
     "static/js/787.e15ef197.chunk.js": "/static/js/787.e15ef197.chunk.js",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
     "static/media/glenn (1).jpg": "/static/media/glenn (1).9abb8f90e73098969a72.jpg",
@@ -31,6 +31,7 @@
     "static/media/square_1_small.jpg": "/static/media/square_1_small.64240fa18494ca9f5c2b.jpg",
     "static/media/Ep1.jpg": "/static/media/Ep1.95d41e36e94c0afb79bd.jpg",
     "static/media/sarah_square_compressed.jpg": "/static/media/sarah_square_compressed.930501d6e84c1a9e53bd.jpg",
+    "static/media/ep4.jpg": "/static/media/ep4.5b6f2afc3a0f592b2398.jpg",
     "static/media/j_a_square.jpg": "/static/media/j_a_square.98d79af25b3a726065d7.jpg",
     "static/media/rebecca square.jpg": "/static/media/rebecca square.35108e6f57f4e57a9882.jpg",
     "static/media/james_square.jpg": "/static/media/james_square.a53dbd0a44316fa7fc50.jpg",
@@ -38,11 +39,11 @@
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.75d6b1d2.css.map": "/static/css/main.75d6b1d2.css.map",
-    "main.51ac73ca.js.map": "/static/js/main.51ac73ca.js.map",
+    "main.7e1964df.js.map": "/static/js/main.7e1964df.js.map",
     "787.e15ef197.chunk.js.map": "/static/js/787.e15ef197.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75d6b1d2.css",
-    "static/js/main.51ac73ca.js"
+    "static/js/main.7e1964df.js"
   ]
 }

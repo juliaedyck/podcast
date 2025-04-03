@@ -7,13 +7,10 @@ import Square2 from "../photos/squares/11.jpg";
 import Square3 from "../photos/squares/36.jpg";
 
 const SeasonTwoEpisodes = () => {
-
-    const newWindow = (url) => {
-        window.open(url, "newwindow");
-        return false;
-      };
-    
-
+  const newWindow = (url) => {
+    window.open(url, "newwindow");
+    return false;
+  };
 
   return (
     <Background>
@@ -29,40 +26,46 @@ const SeasonTwoEpisodes = () => {
           <Img src={Square3} alt=" " />
         </Squares>
         <Scroll>
-
-        <EpisodeContainer>
+          <EpisodeContainer>
             <Heading> SEASON 2</Heading>
 
             <StyledLink
               onClick={() =>
-                newWindow("https://phi.ca/en/events/habitat-sonore-a-kind-of-harmony/#schedule")
+                newWindow(
+                  "https://phi.ca/en/events/habitat-sonore-a-kind-of-harmony/#schedule"
+                )
               }
               target="_blank"
             >
-             Produced in immersive multichannel for the PHI Centre's Habitat Sonore
+              Produced in immersive multichannel for the PHI Centre's Habitat
+              Sonore
             </StyledLink>
             <Des>
-
-            Season 2 explores sound in the context of its social, political, and environmental implications. This series of immersive conversations investigate the ways that sound and listening can shape and inform our daily interactions.
+              Season 2 explores sound in the context of its social, political,
+              and environmental implications. This series of immersive
+              conversations investigate the ways that sound and listening can
+              shape and inform our daily interactions.
             </Des>
-<br></br>
+            <br></br>
             <Des>
-
-            Through six interviews and accompanying sound pieces, hosts Julia and Amanda invite us to reconsider our relationship with sound; how can we resonate with what’s around us?
-</Des>
-<br></br>
+              Through six interviews and accompanying sound pieces, hosts Julia
+              and Amanda invite us to reconsider our relationship with sound;
+              how can we resonate with what’s around us?
+            </Des>
+            <br></br>
           </EpisodeContainer>
 
-            
           <EpisodeContainer>
             <Heading> EPISODE 1:</Heading>
 
             <StyledNavLink to="/Amanda">
-            Amanda Gutierréz, Feminist Sonographies and Decolonial Listening</StyledNavLink>
+              Amanda Gutierréz, Feminist Sonographies and Decolonial Listening
+            </StyledNavLink>
 
             <Des>
               {" "}
-              Amanda describes her soundwalking practice from a decolonial and feminist approach{" "}
+              Amanda describes her soundwalking practice from a decolonial and
+              feminist approach{" "}
             </Des>
           </EpisodeContainer>
 
@@ -70,11 +73,14 @@ const SeasonTwoEpisodes = () => {
             <Heading> EPISODE 2:</Heading>
 
             <StyledNavLink to="/Chantal">
-            Chantal Dumas, publique et intime</StyledNavLink>
+              Chantal Dumas, publique et intime
+            </StyledNavLink>
 
             <Des>
               {" "}
-              Chantal partage sa connaissance de la perception et de l'interaction avec l'espace public, ainsi que ses recherches sur les sons de refuge.{" "}
+              Chantal partage sa connaissance de la perception et de
+              l'interaction avec l'espace public, ainsi que ses recherches sur
+              les sons de refuge.{" "}
             </Des>
           </EpisodeContainer>
 
@@ -82,71 +88,33 @@ const SeasonTwoEpisodes = () => {
             <Heading> EPISODE 3:</Heading>
 
             <StyledNavLink to="/Rehab">
-            Rehab Nazzal, Listening to Occupation and Sounding Resistance
-</StyledNavLink>
-
-            <Des>
-              {" "}
-             Rehab describes the sonic environment of living in occupied Palestine and discusses sounds of resistance and the implications of silence.{" "}
-            </Des>
-          </EpisodeContainer>
-
-          {/* <EpisodeContainer>
-            <Heading> EPISODE 2: </Heading>
-            <StyledNavLink to="/Sarah">SARAH FELDMAN</StyledNavLink>
-
-            <Des>
-              Sarah discusses her practice as a musician including production
-              process, and her relationship with pop music.{" "}
-            </Des>
-          </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading> EPISODE 3: </Heading>
-            <StyledNavLink to="/Jann"> JANN TOMARO</StyledNavLink>
-
-            <Des>
-              Jann speaks to the relationship between sound and the nervous
-              system and her practice of listening.
-            </Des>
-          </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading>EPISODE 4: </Heading>
-            <StyledNavLink to="/Jamilah">
-              {" "}
-              JAMILAH MALIKA ABU-BAKARE
+              Rehab Nazzal, Listening to Occupation and Sounding Resistance
             </StyledNavLink>
+
             <Des>
-              We spoke with Jamilah about sound as haptic and embodied material
-              and how care could be demonstrated through sound, and listening to
-              gain agency through systems of power. {" "}
+              {" "}
+              Rehab describes the sonic environment of living in occupied
+              Palestine and discusses sounds of resistance and the implications
+              of silence.{" "}
             </Des>
           </EpisodeContainer>
 
           <EpisodeContainer>
-            <Heading> EPISODE 5: </Heading>
-            <StyledNavLink to="/Backxwash"> BACKXWASH</StyledNavLink>
+            <Heading> EPISODE 4:</Heading>
+
+            <StyledNavLink to="/Sandra">
+              Sandra Volny, sonores matérielles, sensorielles et sociales
+            </StyledNavLink>
+
             <Des>
-              We spoke with Backxwash about her practice as a musician. We
-              discussed sound as a decolonial force, rage as catharsis and
-              sampling as a way to reconnect with lineage & place
+              {" "}
+              Sandra s'intéresse tout particulièrement à ces occurrences où la
+              conscience qu’a un individu de son environnement se construit par
+              le biais du son. Elle considère l'utilisation des espaces sonores
+              comme des vecteurs qui permettent à l'imagination individuelle et
+              collective d'émerger.
             </Des>
           </EpisodeContainer>
-
-          <EpisodeContainer>
-            <Heading> EPISODE 6: </Heading>
-            <StyledNavLink to="/Andrea"> ANDREA IYA YOUNG</StyledNavLink>
-            <Des>
-              We were curious to speak with Andrea about her practice as a
-              hypnotherapist - we discussed the voice as a portal to the
-              subconscious and the relationship between sound and trace state.{" "}
-            </Des>
-          </EpisodeContainer> */}
-
-     
-        
-  
 
           {/* 
           <EpisodeContainer>
@@ -167,7 +135,10 @@ const EpisodeContainer = styled.div`
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
+  padding-bottom:3%;
+
+
 `;
 
 const Scroll = styled.div`
@@ -202,6 +173,7 @@ const Scroll = styled.div`
     right: 0;
     padding-top: 5%;
     margin-top: 5%;
+    
   }
 
   @media (max-width: 376px) {
@@ -223,7 +195,7 @@ const Scroll = styled.div`
 const StyledNavLink = styled(NavLink)`
   font-family: "DM Serif Display", serif;
   font-style: italic;
-  color:  #162fc3;;
+  color: #162fc3;
   /* margin-top: 2%; */
   margin-bottom: 2%;
 
@@ -239,7 +211,7 @@ const StyledNavLink = styled(NavLink)`
 const StyledLink = styled(Link)`
   font-family: "DM Serif Display", serif;
   font-style: italic;
-  color:  #162fc3;;
+  color: #162fc3;
   /* margin-top: 2%; */
   margin-bottom: 2%;
 
@@ -250,15 +222,15 @@ const StyledLink = styled(Link)`
     /* transition: 300ms ease-in-out; */
     cursor: pointer;
   }
-`
+`;
 
 const Img = styled.img`
   max-width: 33%;
 
   @media (min-width: 768px) {
-   height: 33%;
-   max-height:33%;
-   max-width: fit-content;
+    height: 33%;
+    max-height: 33%;
+    max-width: fit-content;
   }
 `;
 
@@ -283,7 +255,7 @@ const Wrapper = styled.div`
 const Background = styled.div`
   height: 100vh;
   max-width: 100%;
-  background-color: #ceb2ff;;
+  background-color: #ceb2ff;
   overflow-y: scroll;
 `;
 const Close = styled.div`
@@ -306,7 +278,7 @@ const Heading = styled.h1`
 
 const Des = styled.h2`
   font-family: var(--font-body);
-  color:  #162fc3;
+  color: #162fc3;
   font-size: 18px;
 `;
 
@@ -331,7 +303,7 @@ const Squares = styled.div`
     top: 0; /* Stay at the top */
     left: 0;
     margin-top: 0px;
-    
+
     height: 100vh;
   }
 `;
