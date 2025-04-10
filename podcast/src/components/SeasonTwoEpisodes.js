@@ -116,6 +116,21 @@ const SeasonTwoEpisodes = () => {
             </Des>
           </EpisodeContainer>
 
+          <EpisodeContainer>
+            <Heading> EPISODE 5:</Heading>
+
+            <StyledNavLink to="/Amer">
+              AM Kanngieser, Listening as coming to
+            </StyledNavLink>
+
+            <Des>
+              {" "}
+              anngieser re-frames listening as a practice that is embodied,
+              confrontational, challenging and truly transformative, and
+              discusses how one can enter into dialogue with the environment.
+            </Des>
+          </EpisodeContainer>
+
           {/* 
           <EpisodeContainer>
           <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
@@ -136,9 +151,7 @@ const EpisodeContainer = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 3%;
-  padding-bottom:3%;
-
-
+  padding-bottom: 3%;
 `;
 
 const Scroll = styled.div`
@@ -173,7 +186,6 @@ const Scroll = styled.div`
     right: 0;
     padding-top: 5%;
     margin-top: 5%;
-    
   }
 
   @media (max-width: 376px) {

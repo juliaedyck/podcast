@@ -1,18 +1,18 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import styled from "styled-components";
-import Photo from "../photos/ep4.jpg";
+import Photo from "../photos/amer.jpg";
 import { BsInstagram } from "react-icons/bs";
 import { RiPatreonLine } from "react-icons/ri";
 import PDF from "../components/transcripts/A Kind of Harmony_Andrea_Transcript.pdf";
 
-const Sandra = () => {
+const Amer = () => {
   const newWindow = (url) => {
     window.open(url, "newwindow");
     return false;
   };
 
   const embedUrl =
-    "https://open.spotify.com/embed/episode/5tGXVGkJXUjtYNEkoK5Dvi?utm_source=generator";
+    "https://open.spotify.com/embed/episode/4FvpH8H4X64zXWcPF7EnqB?utm_source=generator";
 
   return (
     <>
@@ -25,12 +25,8 @@ const Sandra = () => {
         </a>
 
         <Wrapper>
-          <Heading>
-            {" "}
-            EPISODE 4: Sandra Volny, sonores matérielles, sensorielles et
-            sociales
-          </Heading>
-          <Img src={Photo} alt=" Rehab Nazzal" />
+          <Heading> EPISODE 5: AM Kanngieser, Listening as coming to</Heading>
+          <Img src={Photo} alt=" Am Kanngieser" />
 
           <IFrameMobile
             src={embedUrl}
@@ -64,47 +60,33 @@ const Sandra = () => {
             data-name="pb-iframe-player"
           />
           <Des>
-            Sandra Volny (franco-tchèque) est une artiste, chercheuse et
-            enseignante qui s’intéresse à la perception des espaces
-            sonores.Titulaire d'un doctorat en Arts et Sciences de l'Art de
-            l'Université Paris 1 Panthéon Sorbonne, sa thèse porte sur le
-            concept de "la survivance des espaces sonores", explorant la
-            persistance du son dans les espaces à travers ses constellations
-            matérielles, sensorielles et sociales. Ses recherches et sa pratique
-            actuelle s’intéressent à la navigation dans les espaces par le son,
-            « les résidus sonores », les « fossiles sonores », et l’interaction
-            avec des êtres humains et non-humains par l'acte d'écoute.
+            AM Kanngieser is an award-winning geographer, sound artist and
+            Research Fellow in Geography at Royal Holloway University of London.
+            Their practice engages listening and attunement to approach how
+            people collectively determine conditions of liberation and care in
+            the face of ecocide and environmental change. In this interview,
+            Kanngieser re-frames listening as a practice that is embodied,
+            confrontational, challenging and truly transformative, and discusses
+            how one can enter into dialogue with the environment.
           </Des>
           <Des>
-            Volny s'intéresse tout particulièrement à ces occurrences où la
-            conscience qu’a un individu de son environnement se construit par le
-            biais du son. Elle considère l'utilisation des espaces sonores comme
-            des vecteurs qui permettent à l'imagination individuelle et
-            collective d'émerger.
+            AM Kanngieser is a co-founder of the Institute for Freshwater Fish
+            Futures and works in collaboration with Oceania-based anti-colonial
+            storytellers, artists and grassroots organizers. They are the author
+            of Experimental Politics and the Making of Worlds (2013) and Between
+            Sound and Silence: Listening towards Environmental Relations
+            (forthcoming), and have written for a range of interdisciplinary
+            journals. Their audio work has been commissioned by Documenta 14
+            Radio, BBC, ABC Radio National, The Natural History Museum London,
+            and Deutschland Radio, amongst many others, and has been reviewed in
+            publications including The Wire, Quietus, Transmediale, Outline and
+            Art Quarterly.
           </Des>
           <Des>
-            Sandra Volny est actuellement chercheuse postdoctorale au
-            Département de sciences biologiques de l'Université de Montréal et
-            au sein de la Chaire Médiane de l'Université du Québec à Montréal.
-            Ses recherches ont été publiées dans différentes revues et journaux
-            académiques, dont plus récemment aux presses du MIT. Entre 2019 et
-            2023, Volny était récipiendaire d’une résidence aux ateliers
-            montréalais de la Fonderie Darling. Son travail a fait l’objet
-            d’expositions individuelles et collectives notamment au Musée d'art
-            de Joliette, à la Fonderie Darling, au Centre Clark, à la galerie
-            FOFA, au Centre d’exposition de l’Université de Montréal, à la
-            galerie Michel Journiac (Paris), au Ionion Center (Céphalonie), et
-            au Raumlabor-267 (Braunschweig). Ses œuvres figurent au sein de
-            collections publiques et privées, dont celles du Musée d'art
-            contemporain de Montréal, de Hydro-Québec et de Majudia.
+            Their commissioned soundpiece is an experience of a place, across Nauru, over time.
+
           </Des>
-          <Des>
-            La pièce sonore de Sandra est composée de vibrations sismiques
-            captées grâce à des sismographes dans la glace en Antarctique.
-          </Des>
-          <Des>
-          L'entrevue est offerte en format bilingue EN/FR
-          </Des>
+      
           {/* <Transcript href={PDF} target="blank">
             {" "}
             TRANSCRIPTION
@@ -180,7 +162,7 @@ const Close = styled.div`
 
 const Background = styled.div`
   height: 100vh;
-  background-color:#e4cdff;
+  background-color:#cb9efb;
   overflow: scroll;
 `;
 
@@ -222,4 +204,4 @@ const StyledLink = styled.a`
     cursor: pointer;
   }
 `;
-export default Sandra;
+export default Amer;
