@@ -125,19 +125,26 @@ const SeasonTwoEpisodes = () => {
 
             <Des>
               {" "}
-              anngieser re-frames listening as a practice that is embodied,
+              Kanngieser re-frames listening as a practice that is embodied,
               confrontational, challenging and truly transformative, and
               discusses how one can enter into dialogue with the environment.
             </Des>
           </EpisodeContainer>
 
-          {/* 
           <EpisodeContainer>
-          <Heading> EPISODE : BEVERLY GLENN COPELAND </Heading>
-          <Des>a short descripttion </Des> */}
+            <Heading> EPISODE 6:</Heading>
 
-          {/* <StyledNavLink to="/EpisodePage">LISTEN</StyledNavLink>
-          </EpisodeContainer>  */}
+            <StyledNavLink to="/Seth">
+            Seth Cardinal Dodginghorse, Land and radio waves
+            </StyledNavLink>
+
+            <Des>
+              {" "}
+              Seth shares their practice of translating displacement into performance, and dreaming through pirate radio
+            </Des>
+          </EpisodeContainer>
+
+     
         </Scroll>
       </Wrapper>
     </Background>

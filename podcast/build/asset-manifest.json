@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75d6b1d2.css",
-    "main.js": "/static/js/main.424b7b00.js",
+    "main.js": "/static/js/main.3ee43dfb.js",
     "static/js/787.e15ef197.chunk.js": "/static/js/787.e15ef197.chunk.js",
     "static/media/james_2.jpg": "/static/media/james_2.71af556eb97258f9ac27.jpg",
     "static/media/glenn (1).jpg": "/static/media/glenn (1).9abb8f90e73098969a72.jpg",
@@ -27,6 +27,7 @@
     "static/media/A Kind of Harmony_Sarah Feldman_Transcript.pdf": "/static/media/A Kind of Harmony_Sarah Feldman_Transcript.8f08d1a773994d40067c.pdf",
     "static/media/olivia.jpg": "/static/media/olivia.0c9d0f546344c8431075.jpg",
     "static/media/A Kind of Harmony_Backxwash_Transcript.pdf": "/static/media/A Kind of Harmony_Backxwash_Transcript.e3f1834575f5dc87f6e3.pdf",
+    "static/media/seth.jpg": "/static/media/seth.6ece2157cabd7c9dc721.jpg",
     "static/media/square_2_small.jpg": "/static/media/square_2_small.89b2d32acd2bb1a60470.jpg",
     "static/media/square_1_small.jpg": "/static/media/square_1_small.64240fa18494ca9f5c2b.jpg",
     "static/media/Ep1.jpg": "/static/media/Ep1.95d41e36e94c0afb79bd.jpg",
@@ -40,11 +41,11 @@
     "static/media/CCA_RGB_black_e.png": "/static/media/CCA_RGB_black_e.bbc9f6f45eeca0947129.png",
     "index.html": "/index.html",
     "main.75d6b1d2.css.map": "/static/css/main.75d6b1d2.css.map",
-    "main.424b7b00.js.map": "/static/js/main.424b7b00.js.map",
+    "main.3ee43dfb.js.map": "/static/js/main.3ee43dfb.js.map",
     "787.e15ef197.chunk.js.map": "/static/js/787.e15ef197.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75d6b1d2.css",
-    "static/js/main.424b7b00.js"
+    "static/js/main.3ee43dfb.js"
   ]
 }

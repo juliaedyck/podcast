@@ -21,6 +21,7 @@ import Chantal from "./components/Chantal";
 import Rehab from "./components/Rehab";
 import Sandra from "./components/Sandra";
 import Amer from "./components/Amer";
+import Seth from "./components/Seth";
 
 
 const App  =() => {
@@ -50,6 +51,8 @@ const App  =() => {
             <Route path="/Rehab" element={<Rehab/>} />
             <Route path="/Sandra" element={<Sandra/>} />
             <Route path="/Amer" element={<Amer/>}/>
+            <Route path="/Seth" element={<Seth/>}/>
+
 
 
 
